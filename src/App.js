@@ -10,6 +10,8 @@ import Contact from './Component/Contact/Contact';
 import Logo from './Component/Logo/Logo';
 import Mail from './Component/Mail/Mail';
 import Loader from './Component/Loader/Loader';
+import Whatsapp from './Component/Whatsapp/Whatsapp';
+import Mobile from './Component/Mobile/Mobile';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
   <Route path='/contact' element={<Contact/>}></Route>
   <Route path='/logo' element={<Logo/>}></Route>
   <Route path='/mail' element={<Mail/>}></Route>
+  <Route path='/whatsapp' element={<Whatsapp/>}></Route>
+  <Route path='/mbl' element={<Mobile/>}></Route>
   <Route path='/loader' element={<Loader/>}></Route>
  </Routes>
  </BrowserRouter>
