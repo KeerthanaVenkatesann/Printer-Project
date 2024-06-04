@@ -1,0 +1,11 @@
+.navbar-bg{
+    background-color: black ;
+  height: 87px;
+
+}
+
+.header-list:hover{
+    cursor: pointer;
+    color:rgb(238, 238, 110)!important ;
+    transition: 1s;
+}

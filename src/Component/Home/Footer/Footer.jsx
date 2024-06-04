@@ -1,13 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import "./Footer.css"
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white pt-4 pb-4">
-      <div className="container d-flex justify-content-center align-items-center">
+    <footer className="footer-bg text-white pt-5 pb-5 footer-list">
+      <div className="container d-flex justify-content-around align-items-center">
         <div className="row mt-4">
-          <div className="col-md-4 text-center">
+          <div className="col-md-3 text-start">
             <h4 className="mb-3">LOCATION</h4>
             <p>
               Allwin Digital, Vadapalani
@@ -16,20 +17,29 @@ const Footer = () => {
               Chennai-600026
             </p>
           </div>
+          <div className="col-md-3 text-start">
+            <h4 className="mb-3">SERVICES</h4>
+        
+          <span>Digital Printing</span><br/>
+          <span>Flex Printing</span><br/>
+          <span>Led Sign Board
+         </span>
+      
+          </div>
 
-          <div className="col-md-4 mb-4 text-center">
+          <div className="col-md-3 mb-4 text-start">
             <h4 className="mb-3">AROUND THE WEB</h4>
             <a href="#" className="text-white mx-2">
-              <i className="fab fa-whatsapp fs-2 border p-2 text-dark bg-white rounded-circle"></i>
+              <i className="fab fa-whatsapp fs-4 border p-2 text-black bg-white rounded-circle"></i>
             </a>
             <a href="#" className="text-white mx-2">
-              <i className="fab fa-instagram fs-2 border p-2 text-dark bg-white rounded-circle"></i>
+              <i className="fab fa-instagram fs-4 border p-2 text-black bg-white rounded-circle"></i>
             </a>
             <a href="#" className="text-white mx-2">
-              <i className="fas fa-envelope fs-2 border p-2 text-dark bg-white rounded-circle"></i>
+              <i className="fas fa-envelope fs-4 border p-2 text-black bg-white rounded-circle"></i>
             </a>
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-3 text-start">
             <h4 className="mb-3">CONTACT US</h4>
             <ul className="list-unstyled">
               <li>
