@@ -15,8 +15,10 @@ import Mobile from './Component/Mobile/Mobile';
 
 function App() {
   return (
- <BrowserRouter><Routes>
-  <Route path='/' element={<Layout/>}></Route>
+ <BrowserRouter>
+ <Layout />
+ <Routes>
+
   <Route path='/header' element={<Header/>}></Route>
   <Route path='/footer' element={<Footer/>}></Route>
   <Route path='/homepage' element={<HomePage/>}></Route>

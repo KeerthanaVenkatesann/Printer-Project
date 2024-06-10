@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Mobile() {
-  const phoneNumber = "7558103046";
+  const phoneNumber = "8681000087";
 
   const handlePhoneCall = () => {
     window.location.href = `tel:${phoneNumber}`;
