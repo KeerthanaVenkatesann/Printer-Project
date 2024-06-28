@@ -1,42 +1,165 @@
-import React from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+// import React, { useState, useEffect } from "react";
+// import { Navbar, Nav, Container } from "react-bootstrap";
+// import "./Header.css";
+// import Logo from "../../Logo/Logo";
+
+// export default function Header() {
+//   const [scrolled, setScrolled] = useState(false);
+
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       const offset = window.scrollY;
+//       if (offset > 50) {
+//         setScrolled(true);
+//       } else {
+//         setScrolled(false);
+//       }
+//     };
+
+//     window.addEventListener("scroll", handleScroll);
+//     return () => {
+//       window.removeEventListener("scroll", handleScroll);
+//     };
+//   }, []);
+
+//   return (
+//     <div >
+//       <Navbar expand="lg" className={`navbar-bg fixed-top ${scrolled ? 'scrolled' : ''}`}>
+//         <Container>
+//           <Navbar.Brand href="#home" className="text-white">
+//             {/* <Logo /> */}
+//           </Navbar.Brand>
+//           <Navbar.Toggle
+//             aria-controls="basic-navbar-nav"
+//             className="border border-1 border-white  navbar-dark"
+//           />
+//           <Navbar.Collapse id="basic-navbar-nav">
+//             <Nav className="ms-auto">
+//               <Nav.Link
+//                 href="#home"
+//                 className="header-list text-white mx-3"
+//                 activeStyle={{ color: "rgb(182, 35, 35)" }}
+//               >
+//               About us
+//               </Nav.Link>
+//               <Nav.Link
+//                 href="#service"
+//                 className="header-list text-white mx-3"
+//                 activeStyle={{ color: "rgb(182, 35, 35)" }}
+//               >
+//           Our Products
+//               </Nav.Link>
+//               <Nav.Link
+//                 href="#customized-prints"
+//                 className="header-list text-white mx-3"
+//                 activeStyle={{ color: "rgb(182, 35, 35)" }}
+//               >
+//               Hoarding
+//               </Nav.Link>
+//               <Nav.Link
+//                 href="#about-us"
+//                 className="header-list text-white mx-3"
+//                 activeStyle={{ color: "rgb(182, 35, 35)" }}
+//               >
+//               Contact us
+//               </Nav.Link>
+//               {/* <Nav.Link
+//                 href="#contact"
+//                 className="header-list text-white mx-3"
+//                 activeStyle={{ color: "rgb(182, 35, 35)" }}
+//               >
+//                 Contact
+//               </Nav.Link> */}
+//             </Nav>
+//           </Navbar.Collapse>
+//         </Container>
+//       </Navbar>
+//     </div>
+//   );
+// }
+
+import React, { useState, useEffect } from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Header.css";
-import Logo from "../../Logo/Logo";
+import Aos from "aos";
+import HomePage from "../HomePage/HomePage";
 
 export default function Header() {
-  
+  const [scrolled, setScrolled] = useState(false);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div>
-      <Navbar  expand="lg" className="navbar-bg fixed-top">
+    <div className={`header-wrapper ${scrolled ? "scrolled" : ""}`}>
+      <Navbar
+        expand="lg"
+        className={`navbar-bg fixed-top ${scrolled ? "scrolled" : ""}`}
+      >
         <Container>
           <Navbar.Brand href="#home" className="text-white">
-          {/* <Logo/> */}
+            {/* <Logo /> */}
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"  className="border border-1 border-white  navbar-dark" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="border border-1 border-white  navbar-dark"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className="header-list text-white mx-3"   activeStyle={{ color: "rgb(182, 35, 35)" }}>
-                Home
+              <Nav.Link
+                href="#home"
+                className="header-list text-white mx-3"
+                activeStyle={{ color: "rgb(182, 35, 35)" }}
+              >
+                About us
               </Nav.Link>
-              <Nav.Link href="#service" className="header-list text-white    mx-3"   activeStyle={{ color: "rgb(182, 35, 35)" }}>
-                Service
+              <Nav.Link
+                href="#service"
+                className="header-list text-white mx-3"
+                activeStyle={{ color: "rgb(182, 35, 35)" }}
+              >
+                Our Products
               </Nav.Link>
               <Nav.Link
                 href="#customized-prints"
-                className="header-list text-white  mx-3"
-                activeStyle={{ color: "rgb(182, 35, 35)" }} >
-                Customized Printers
+                className="header-list text-white mx-3"
+                activeStyle={{ color: "rgb(182, 35, 35)" }}
+              >
+                Hoarding
               </Nav.Link>
-              <Nav.Link href="#about-us" className="header-list text-white  mx-3"   activeStyle={{ color: "rgb(182, 35, 35)" }}>
-                About Us
+              <Nav.Link
+                href="#about-us"
+                className="header-list text-white mx-3"
+                activeStyle={{ color: "rgb(182, 35, 35)" }}
+              >
+                Contact us
               </Nav.Link>
-              <Nav.Link href="#contact" className="header-list text-white  mx-3"   activeStyle={{ color: "rgb(182, 35, 35)" }}>
+              {/* <Nav.Link
+                href="#contact"
+                className="header-list text-white mx-3"
+                activeStyle={{ color: "rgb(182, 35, 35)" }}
+              >
                 Contact
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+    <HomePage />
     </div>
   );
 }

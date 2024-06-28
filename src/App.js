@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './Component/Layout/Layout';
-import Header from './Component/Home/Header/Header';
+
 import Footer from './Component/Home/Footer/Footer';
 import HomePage from './Component/Home/HomePage/HomePage';
 import About from './Component/Aboutus/About';
@@ -12,6 +12,10 @@ import Mail from './Component/Mail/Mail';
 import Loader from './Component/Loader/Loader';
 import Whatsapp from './Component/Whatsapp/Whatsapp';
 import Mobile from './Component/Mobile/Mobile';
+import Header from './Component/Home/Header/Header';
+import Gallery from './Component/Home/HomePage/Gallery/Gallery';
+
+
 
 function App() {
   return (
@@ -29,6 +33,8 @@ function App() {
   <Route path='/whatsapp' element={<Whatsapp/>}></Route>
   <Route path='/mbl' element={<Mobile/>}></Route>
   <Route path='/loader' element={<Loader/>}></Route>
+  <Route path='/gallery' element={<Gallery/>}></Route>
+
  </Routes>
  </BrowserRouter>
   );

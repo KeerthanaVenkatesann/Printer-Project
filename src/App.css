@@ -1,15 +1,17 @@
-.header-list{
+.header-list {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
-font-weight: 500 !important;
-  font-variation-settings:
-    "wdth" 100;
-
+  font-weight: 500 !important;
+  font-variation-settings: "wdth" 100;
 }
-.footer-list{
+.footer-list {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
-font-weight: 300 !important;
-  font-variation-settings:
-    "wdth" 100;
+  font-weight: 300 !important;
+  font-variation-settings: "wdth" 100;
+}
+.allwin-font {
+  font-family: "Amita", serif;
+  font-weight: 400;
+  font-style: normal;
 }

@@ -41,9 +41,9 @@ export default function Layout() {
   return (
     <div>
       <Header />
-      <HomePage />
+      {/* <HomePage /> */}
       <Outlet />
-      {/* <Footer /> */}
+   
     </div>
   );
 }
