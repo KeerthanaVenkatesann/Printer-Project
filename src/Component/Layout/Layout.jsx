@@ -43,7 +43,7 @@ export default function Layout() {
       <Header />
       {/* <HomePage /> */}
       <Outlet />
-   
+      {/* <Footer /> */}
     </div>
   );
 }

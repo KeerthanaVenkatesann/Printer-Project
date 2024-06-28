@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Header.css";
@@ -8,7 +7,6 @@ import Logo from "../../Logo/Logo";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,9 +28,10 @@ export default function Header() {
     <div className={`header-wrapper ${scrolled ? "scrolled" : ""}`}>
       <Navbar
         expand="lg"
-        className={`navbar-bg fixed-top p-5 ${scrolled ? "scrolled" : ""}`}>
+        className={`navbar-bg fixed-top p-5 ${scrolled ? "scrolled" : ""}`}
+      >
         <Container>
-          <Navbar.Brand href="#home" className="text-white">
+          <Navbar.Brand href="/" className="text-white">
             <Logo />
           </Navbar.Brand>
           <Navbar.Toggle
@@ -69,18 +68,11 @@ export default function Header() {
               >
                 Contact us
               </Nav.Link>
-              {/* <Nav.Link
-                href="#contact"
-                className="header-list text-white mx-3"
-                activeStyle={{ color: "rgb(182, 35, 35)" }}
-              >
-                Contact
-              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    <HomePage />
+      <HomePage />
     </div>
   );
 }
