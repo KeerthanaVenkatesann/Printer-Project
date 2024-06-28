@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Logo() {
   return (
-    <img src='/Assests/logo (3).png' width={65} height={85}/>
+   <div> <img src='/Assests/Gallery/logo (3).png' width={65} height={85}/></div>
   )
 }

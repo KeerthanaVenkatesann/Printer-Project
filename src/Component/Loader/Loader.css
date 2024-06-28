@@ -4,15 +4,16 @@
   height: 128px;
   position: relative;
   /* border-radius: 13% 31% 75% 95% / 95% 17% 87% 12%; */
-  background-image: linear-gradient(rgb(0, 255, 255) 32px, transparent 0),
-    /* Cyan */ linear-gradient(rgb(255, 0, 255) 32px, transparent 0),
-    /* Magenta */ linear-gradient(rgb(255, 255, 0) 32px, transparent 0),
+  background-image: linear-gradient(rgb(104, 182, 182) 32px, transparent 0),
+    /* Cyan */ linear-gradient(rgb(183, 56, 151) 32px, transparent 0),
+    /* Magenta */ linear-gradient(rgb(180, 180, 95) 32px, transparent 0),
     /* Yellow */ linear-gradient(rgb(255, 254, 254) 32px, transparent 0); /* Black */
   background-repeat: no-repeat;
   background-size: 32px 32px;
   background-position: left top, left bottom, right top, right bottom;
   animation: rotate 1s linear infinite;
 }
+
 
 @keyframes rotate {
   0% {

@@ -16,15 +16,13 @@
 .navbar-bg.scrolled {
   background-color: black;
   height: 60px;
+  
 }
 
 .header-wrapper {
   background-color: black;
-  /* background-image: url('/public/Assests/Gallery/bgwhole.jpg'); */
-  background-size: cover;
-  background-position: center;
-  height: 100vh; /* Adjust as needed */
-  transition: background-image 0.3s ease-in-out; /* Optional: smooth background image transition */
+
+ /* Optional: smooth background image transition */
 }
 
 .navbar-bg {
