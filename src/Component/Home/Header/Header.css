@@ -1,14 +1,36 @@
-/* 
+/* Common link styling */
+.header-list {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
 
+/* Hover effect */
+.header-list:hover::after, .header-list:active::after {
+  width: 100%;
+}
 
+/* Progressive underline effect */
+.header-list::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: rgb(180, 180, 95); /* Color for the underline */
+  transition: width 0.5s ease-in-out;
+}
+
+/* Optional: Keep existing hover color transition */
 .header-list:hover {
-  transition: 1s ease-in-out;
-  color: rgb(84, 214, 143) !important;
-} */
+  transition: color 1s ease-in-out;
+  color: rgb(180, 180, 95) !important;
+}
+
+/* Navbar background */
 .navbar-bg {
-
-
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: black;
   height: 87px;
   transition: background-color 0.5s ease, height 0.5s ease;
 }
@@ -16,21 +38,9 @@
 .navbar-bg.scrolled {
   background-color: black;
   height: 60px;
-  
 }
 
+/* Wrapper */
 .header-wrapper {
   background-color: black;
-
- /* Optional: smooth background image transition */
-}
-
-.navbar-bg {
-  background-color: transparent; /* Initial background color */
-  transition: background-color 0.3s ease-in-out; /* Optional: smooth background color transition */
-}
-
-.scrolled {
-  background-color:black; /* Adjust to your desired background color when scrolled */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a shadow on scroll */
 }

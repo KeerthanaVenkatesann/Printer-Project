@@ -31,7 +31,7 @@ function App() {
         <Route path="/mbl" element={<Mobile />}></Route>
         <Route path="/loader" element={<Loader />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
-        <Route path="/" element={<Carousel />}></Route>
+        <Route path="/carousel" element={<Carousel />}></Route>
       </Routes>
     </BrowserRouter>
   );

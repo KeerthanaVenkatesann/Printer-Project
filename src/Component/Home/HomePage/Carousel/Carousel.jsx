@@ -53,6 +53,41 @@ export default function Carousel() {
             }}
           ></div>
 
+          
+<div
+            className="item"
+            tabindex="0"
+            style={{
+              backgroundImage:
+                "url(/Assests/Gallery/shape_cutting-removebg-preview.png)",
+            }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{
+              backgroundImage:
+                "url(/Assests/Gallery/aj-creations-jhilmil-colony-delhi-identity-card-manufacturers-2vhj2xwpnx-removebg-preview.png)",
+            }}
+          ></div>
+          
+          <div
+            className="item"
+            tabindex="0"
+            style={{
+              backgroundImage:
+                "url(/Assests/Gallery/shape_cutting-removebg-preview.png)",
+            }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{
+              backgroundImage:
+                "url(/Assests/Gallery/aj-creations-jhilmil-colony-delhi-identity-card-manufacturers-2vhj2xwpnx-removebg-preview.png)",
+            }}
+          ></div>
+
         
         </div>
       </div>
