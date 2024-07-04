@@ -1,9 +1,38 @@
-import React from 'react'
+import React from "react";
+import "./Contact.css";
+import { PiPhoneCallDuotone, PiWhatsappLogoDuotone } from "react-icons/pi";
+import { AiTwotoneMail } from "react-icons/ai";
+
 
 export default function Contact() {
   return (
-    <div>
-      contact us!
+    <div className="text-center">
+      <h1 className="header-list">Get In Touch With Us</h1>
+      <div className="d-flex justify-content-around align-items-center  mt-5 mx-auto ">
+        <div className="map ">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.858015654034!2d80.21097107484266!3d13.04470828727745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267af4ed6df25%3A0xbf06d102c10708f1!2sAllwin%20Digital!5e0!3m2!1sen!2sin!4v1720109529423!5m2!1sen!2sin"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            className="iframe-map"
+          ></iframe>
+        </div>
+        <div className="text-start shadow rounded allwin-name p-5 mt-md-5 border-anime ">
+          <h3 className="content-font header-list mb-4">
+            Allwin Digital -Vadapalani{" "}
+          </h3>
+          <p className="listed "> 21 South sivan koil street</p>
+          <p className="listed">100 Feet Rd</p>
+          <p className="listed ">Chennai</p>
+          <p className="listed">Tamil Nadu</p>
+          <p className="listed ">600026</p>
+          <p className="listed">8681000087/86/97</p>
+          <p className="listed ">8681000087/86</p>
+        </div>
+      </div>
+  
     </div>
-  )
+  );
 }

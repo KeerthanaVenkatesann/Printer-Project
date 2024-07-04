@@ -11,7 +11,7 @@ export default function ContentBoxOne() {
   return (
     <>
     <div className="card-container  ">
-      <div className="text-center card-card shadow p-3 btn">
+      <div className="text-center card-card shadow p-3 rounded">
         <div className="icon-circle mx-auto">
         <AiOutlineAntDesign />
         </div>
@@ -19,7 +19,7 @@ export default function ContentBoxOne() {
             <span className='card-text'>Design</span>
         <p className='content-one'>Creating stunning digital designs tailored for photo prints and business cards that captivate and impress.</p>
       </div></div>
-      <div className=" text-center card-card  shadow p-3 btn">
+      <div className=" text-center card-card  shadow p-3 rounded">
         <div className="icon-circle mx-auto">
         <SiGamedeveloper />
         </div>
@@ -27,7 +27,7 @@ export default function ContentBoxOne() {
             <span className='card-text'>Create</span>
         <p className='content-one'>Transforming concepts into high-quality printed materials, including custom logos that reflect your brand's identity.</p>
         </div></div>
-      <div className=" text-center card-card shadow p-3 btn" >
+      <div className=" text-center card-card shadow p-3 rounded" >
         <div className="icon-circle mx-auto">
         <GrDeliver />
         </div>

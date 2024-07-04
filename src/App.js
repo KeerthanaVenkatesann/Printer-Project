@@ -35,7 +35,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />}></Route>
     
         <Route path="/carousel" element={<Carousel />}></Route>
-        <Route path="/cbo" element={<ContentBoxOne />}></Route>
+        <Route path="/" element={<ContentBoxOne />}></Route>
       </Routes>
     </BrowserRouter>
   );

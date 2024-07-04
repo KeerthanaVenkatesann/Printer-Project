@@ -120,7 +120,7 @@ export default function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
-                href="#home"
+                href="about"
                 className="header-list text-white mx-3"
                 activeStyle={{ color: "rgb(182, 35, 35)" }}
               >
@@ -141,7 +141,7 @@ export default function Header() {
                 Hoarding
               </Nav.Link>
               <Nav.Link
-                href="#about-us"
+                href="/contact"
                 className="header-list text-white mx-3"
                 activeStyle={{ color: "rgb(182, 35, 35)" }}
               >
@@ -152,6 +152,7 @@ export default function Header() {
         </Container>
       </Navbar>
       <HomePage />
+      
     </div>
   );
 }

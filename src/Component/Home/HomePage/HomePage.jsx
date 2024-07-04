@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import "./HomePage.css"; // Import your component CSS file here
 import { HiArrowLongRight } from "react-icons/hi2";
 
+
 export default function HomePage() {
   useEffect(() => {
     AOS.init({
@@ -14,6 +15,7 @@ export default function HomePage() {
   }, []);
 
   return (
+    <>
     <div className="homepage-container">
       <div className="content-container d-flex justify-content-around">
         <div
@@ -22,16 +24,16 @@ export default function HomePage() {
           data-aos-easing="ease-in-sine"
           className="text-container"
         >
-          <h1 className="allwin-font">Transforming Ideas | DigitaL ReaLity</h1>
-          <h4 className="allwin-name text-end">ALLwin | DigitaL </h4>
+          <h1 className="allwin-font">Transforming Ideas | Digital Reality</h1>
+          <h4 className="allwin-name text-end">Allwin | Digital </h4>
           <div className="text-center allwin-font mt-3">
             <button className="btn btn-outline-light get-button me-md-4">
               Get started <HiArrowLongRight />
             </button>
             |
-            <button className=" header-list text-white btn ms-md-2 ">
+            <span className=" header-list text-white  ms-md-2 ">
               Learn More
-            </button>
+            </span>
           </div>
         </div>
         <div data-aos="fade-left"
@@ -42,5 +44,7 @@ export default function HomePage() {
         </div>
       </div>
     </div>
+ 
+    </>
   );
 }

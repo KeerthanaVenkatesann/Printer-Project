@@ -1,0 +1,5 @@
+.allwin-print {
+    background: linear-gradient(to bottom, #ffffff, #000000, rgb(180, 180, 95));
+    color: white; 
+    padding: 20px; /* Adjust padding as needed */
+  }
