@@ -1,0 +1,12 @@
+.get-button-two:hover{
+    background-color: rgb(180, 180, 95) !important; 
+    border-color:rgb(180, 180, 95) !important ;
+  transition: 1s !important;
+
+  color: black !important;
+  }
+  .get-button-two{
+    font-weight: 600 !important;
+    font-size: larger;
+    border: 2px solid  !important;
+  }

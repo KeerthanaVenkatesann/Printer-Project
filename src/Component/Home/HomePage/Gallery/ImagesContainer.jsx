@@ -194,10 +194,7 @@ const images = [
       src: "/Assests/Gallery/10 x 10 MS 1.jpg",
       alt: "Ads",
     },
-    {
-      src: "/Assests/Gallery/idcard-removebg-preview.png",
-      alt: "ID",
-    },
+  
     {
       src: "/Assests/Gallery/shape_cutting-removebg-preview.png",
       alt: "Shape cutting",
@@ -214,26 +211,8 @@ const images = [
       src: "/Assests/Gallery/recep book.jpg",
       alt: "Recep book",
     },
-    {
-      src: "/Assests/Gallery/0004726_roll-up-banners_540.jpeg-removebg-preview.png",
-      alt: "Roll up banners",
-    },
-    {
-      src: "/Assests/Gallery/201809061536299272979-removebg-preview.png",
-      alt: "Stands",
-    },
-    {
-      src: "/Assests/Gallery/rubber_stamp-removebg-preview.png",
-      alt: "Rubber stamp",
-    },
-    {
-      src: "/Assests/Gallery/aj-creations-jhilmil-colony-delhi-identity-card-manufacturers-2vhj2xwpnx-removebg-preview.png",
-      alt: "ID tag",
-    },
-    {
-      src: "/Assests/Gallery/41Ug99kWMkL._AC_UF894_1000_QL80__-_Copy-removebg-preview.png",
-      alt: "Stand",
-    },
+  
+  
   ];
   
   export default images;

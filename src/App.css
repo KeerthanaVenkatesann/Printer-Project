@@ -13,11 +13,18 @@
 .allwin-font {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
-  font-weight: lighter;
+  font-weight: 200;
+  font-variation-settings: "wdth" 100;
+}
+.content-font{
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-variation-settings: "wdth" 100;
 }
 .allwin-name {
-  font-family: "Tangerine", cursive;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-variation-settings: "wdth" 100;
 }

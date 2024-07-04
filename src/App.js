@@ -14,6 +14,8 @@ import Mobile from "./Component/Mobile/Mobile";
 import Header from "./Component/Home/Header/Header";
 import Gallery from "./Component/Home/HomePage/Gallery/Gallery";
 import Carousel from "./Component/Home/HomePage/Carousel/Carousel";
+import ContentBoxOne from "./Component/Home/ContentBoxOne/ContentBoxOne";
+
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
         <Route path="/mbl" element={<Mobile />}></Route>
         <Route path="/loader" element={<Loader />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
+    
         <Route path="/carousel" element={<Carousel />}></Route>
+        <Route path="/cbo" element={<ContentBoxOne />}></Route>
       </Routes>
     </BrowserRouter>
   );

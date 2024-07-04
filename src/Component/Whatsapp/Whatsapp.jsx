@@ -1,5 +1,6 @@
 import React from "react";
-
+import "./Whatsapp.css"
+import { PiWhatsappLogoDuotone } from "react-icons/pi";
 export default function Whatsapp() {
   const handleWhatsAppRedirect = () => {
     const phoneNumber = "8681000087";
@@ -7,12 +8,12 @@ export default function Whatsapp() {
     window.location.href = url;
   };
   return (
-    <div className="d-flex justify-content-center align-items-center vh-100">
+    <div >
       <button
-        className="bg-success text-white rounded "
+        className="btn btn-outline-dark get-button-two  content-font  "
         onClick={handleWhatsAppRedirect}
       >
-        whatsapp
+       Direct whatsapp <PiWhatsappLogoDuotone />
       </button>
     </div>
   );

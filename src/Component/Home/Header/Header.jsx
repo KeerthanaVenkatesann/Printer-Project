@@ -111,7 +111,7 @@ export default function Header() {
       >
         <Container>
           <Navbar.Brand href="/" className="text-white">
-            <Logo />
+            {/* <Logo /> */}
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
@@ -151,7 +151,7 @@ export default function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      {/* <HomePage /> */}
+      <HomePage />
     </div>
   );
 }

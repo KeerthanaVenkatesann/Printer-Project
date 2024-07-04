@@ -1,0 +1,34 @@
+.info {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+.bg-given {
+  background-color: rgb(228, 228, 228) !important;
+}
+.colors-get {
+  color: rgb(182, 182, 64);
+  margin-bottom: -10px;
+}
+
+.bg-given {
+  position: relative;
+  background: linear-gradient(135deg, transparent 10px, rgb(241, 238, 238) 10px),
+    linear-gradient(225deg, transparent 10px, rgb(242, 242, 184) 10px);
+  background-size: 20px 20px;
+}
+
+.bg-given:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white; /* Adjust as needed */
+  z-index: -1;
+}
