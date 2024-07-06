@@ -110,3 +110,38 @@
 	transform: translateZ(calc(var(--index) * 10));
     margin: 0 .45vw;
 }
+
+/* second carousal */
+.carousal{
+    width: 92% !important;
+}
+
+/* Carousel.css */
+.carousel .control-arrow {
+    background: transparent !important;
+  }
+  
+  .carousel .control-arrow:before {
+    border: solid transparent !important;
+  }
+  
+  /* Scrollbar styling for WebKit browsers */
+  .carousel-wrapper::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .carousel-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .carousel-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  /* Scrollbar styling for Firefox */
+  .carousel-wrapper {
+    scrollbar-color: rgba(0, 0, 0, 0.6) transparent;
+    scrollbar-width: thin;
+  }
+  

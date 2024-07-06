@@ -31,6 +31,13 @@
   font-variation-settings: "wdth" 100;
 }
 
+.print{
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-variation-settings: "wdth" 100;
+}
+
 .allwin-print{
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;

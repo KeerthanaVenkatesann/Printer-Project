@@ -2,11 +2,14 @@ import React from "react";
 import "./Contact.css";
 import { PiPhoneCallDuotone, PiWhatsappLogoDuotone } from "react-icons/pi";
 import { AiTwotoneMail } from "react-icons/ai";
+import ContentBoxTwo from "../Home/ContentBoxOne/ContentBoxTwo";
+import CarouselTwo from "../Home/HomePage/Carousel/CarouselTwo";
 
 
 export default function Contact() {
   return (
-    <div className="text-center">
+    <>
+    <div className="text-center mb-5 ">
       <h1 className="header-list">Get In Touch With Us</h1>
       <div className="d-flex justify-content-around align-items-center  mt-5 mx-auto ">
         <div className="map ">
@@ -34,5 +37,10 @@ export default function Contact() {
       </div>
   
     </div>
+    <div className="mt-5 pt-5">
+      <div className="mt-5"><CarouselTwo /></div>
+</div>
+    
+    </>
   );
 }
