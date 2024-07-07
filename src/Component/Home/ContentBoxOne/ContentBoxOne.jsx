@@ -5,6 +5,7 @@ import { AiOutlineAntDesign } from 'react-icons/ai';
 import { SiGamedeveloper } from 'react-icons/si';
 import { GrDeliver } from 'react-icons/gr';
 import GetStarted from '../GetStarted/GetStarted';
+import Footer from '../Footer/Footer';
  // Example icons from react-icons
 
 export default function ContentBoxOne() {
@@ -38,6 +39,7 @@ export default function ContentBoxOne() {
       
     </div>
     <GetStarted />
+    <Footer />
     </>
   );
 }

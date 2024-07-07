@@ -3,6 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./HomePage.css"; // Import your component CSS file here
 import { HiArrowLongRight } from "react-icons/hi2";
+import Footer from "../Footer/Footer";
+import ContentBoxOne from "../ContentBoxOne/ContentBoxOne";
 
 
 export default function HomePage() {
@@ -44,7 +46,8 @@ export default function HomePage() {
         </div>
       </div>
     </div>
- 
+    {/* <ContentBoxOne />
+  */}
     </>
   );
 }

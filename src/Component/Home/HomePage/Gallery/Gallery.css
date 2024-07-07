@@ -24,7 +24,7 @@
 .album .img {
   width: 100%;
   border-radius: 8px;
-  margin: 0 0 20px 0;
+  /* margin: 0 0 20px 0; */
 }
 
 .album #i9rb {

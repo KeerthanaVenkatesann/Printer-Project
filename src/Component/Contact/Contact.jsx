@@ -4,6 +4,7 @@ import { PiPhoneCallDuotone, PiWhatsappLogoDuotone } from "react-icons/pi";
 import { AiTwotoneMail } from "react-icons/ai";
 
 import CarouselTwo from "../Home/HomePage/Carousel/CarouselTwo";
+import Footer from "../Home/Footer/Footer";
 
 
 export default function Contact() {
@@ -40,7 +41,7 @@ export default function Contact() {
     <div className="mt-5 pt-5">
       <div className="mt-5"><CarouselTwo /></div>
 </div>
-    
+    <Footer />
     </>
   );
 }

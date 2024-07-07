@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Network.css";
 import { MdLocationPin } from "react-icons/md";
+import Footer from "../Home/Footer/Footer";
 
 const data = [
   {
@@ -169,6 +170,7 @@ const Network = () => {
         ))}
       </div>
     </div>
+    <Footer />
     </>
   );
 };

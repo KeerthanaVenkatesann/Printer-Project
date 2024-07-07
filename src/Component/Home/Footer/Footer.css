@@ -3,6 +3,18 @@
     position: relative;
     padding: 100px;
 
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
  
+}
+li{
+  list-style-type: none;
+  margin: 5px;
+}
+a{
+    text-decoration: none !important;
+    color: white ;
+}
+a:hover{
+    color:rgb(180, 180, 95) ;
+    transition: 1s;
 }
