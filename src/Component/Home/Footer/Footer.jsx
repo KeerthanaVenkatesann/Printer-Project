@@ -1,33 +1,72 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer-bg text-white pt-5 pb-5 footer-list mt-auto">
       <div className="container d-flex justify-content-around align-items-center">
-        <div className="row mt-4">
-          <div className="col-md-3 text-start">
-            <h4 className="mb-3">LOCATION</h4>
-            <p>
-              Allwin Digital, Vadapalani
-              <br />
-              Old No:16, New No, 21 South Sivan Kovil street, 100 Feet Rd,
-              Chennai-600026
-            </p>
+        <div className="d-flex mt-4 ">
+          <div className=" text-start">
+          
+            <li>LED Sign Boards
+            </li>
+            <li>Neon Signs
+            </li>
+            <li>Metal Sign Boards
+            </li>
+            <li>Flange Board
+            </li>
+            <li>Wooden Signage
+            </li>
+            <li>Unipole Hoarding
+            </li>
           </div>
-          <div className="col-md-3 text-start">
-            <h4 className="mb-3">SERVICES</h4>
-        
-          <span>Digital Printing</span><br/>
-          <span>Flex Printing</span><br/>
-          <span>Led Sign Board
-         </span>
-      
+          <div className=" text-start">
+            <li>ACP Glazing
+            </li>
+            <li>Vehicle Branding sticker 
+            </li>
+            <li>Wall Graphics sticker 
+            </li>
+            <li>Promotional Umbrella</li>
+            <li>Promotional Table
+            </li>
+            <li>Promotional Tent
+            </li>
+          </div>
+          <div className=" text-start">
+            <li>Promotional Arch
+            </li>
+            <li>Roll Up Banner Stand
+            </li>
+            <li>Clip On Board
+            </li>
+            <li>Sandwich Board
+            </li>
+            <li>Flex Board
+            </li>
+            <li>Backlight Board
+            </li>
+          </div>
+          <div className=" text-start">
+            <li>Promotional Arch
+            </li>
+            <li>Roll Up Banner Stand
+            </li>
+            <li>Clip On Board
+            </li>
+            <li>Sandwich Board
+            </li>
+            <li>Flex Board
+            </li>
+            <li>Backlight Board
+            </li>
           </div>
 
-          <div className="col-md-3 mb-4 text-start">
+
+          <div className=" mb-4 text-start">
             <h4 className="mb-3">AROUND THE WEB</h4>
             <a href="#" className="text-white mx-2">
               <i className="fab fa-whatsapp fs-4 border p-2 text-black bg-white rounded-circle"></i>
@@ -39,7 +78,7 @@ const Footer = () => {
               <i className="fas fa-envelope fs-4 border p-2 text-black bg-white rounded-circle"></i>
             </a>
           </div>
-          <div className="col-md-3 text-start">
+          <div className=" text-start">
             <h4 className="mb-3">CONTACT US</h4>
             <ul className="list-unstyled">
               <li>

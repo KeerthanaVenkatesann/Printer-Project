@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { PiPhoneCallDuotone, PiWhatsappLogoDuotone } from "react-icons/pi";
 import { AiTwotoneMail } from "react-icons/ai";
-import ContentBoxTwo from "../Home/ContentBoxOne/ContentBoxTwo";
+
 import CarouselTwo from "../Home/HomePage/Carousel/CarouselTwo";
 
 

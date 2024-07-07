@@ -107,7 +107,7 @@ export default function Header() {
     <div className={`header-wrapper ${scrolled ? "scrolled" : ""}`}>
       <Navbar
         expand="lg"
-        className={`navbar-bg fixed-top p-2 ${scrolled ? "scrolled" : ""}`}
+        className={`navbar-bg fixed-top p-4 ${scrolled ? "scrolled" : ""}`}
       >
         <Container>
           <Navbar.Brand href="/" className="text-white">
@@ -152,7 +152,6 @@ export default function Header() {
         </Container>
       </Navbar>
       <HomePage />
-      
     </div>
   );
 }

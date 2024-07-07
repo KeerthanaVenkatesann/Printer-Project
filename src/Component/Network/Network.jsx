@@ -151,13 +151,13 @@ const Network = () => {
     </div>
    
 
-<div className="parallax  "></div>
+{/* <div className="parallax  "></div> */}
 
 <div className="hoardings-container bg-transparent print text-white mb-5 ">
      
       <h1 className="header-list mb-4 text-white">Find hoardings in All Over Chennai</h1>
       <p className="print w-75 mx-auto mt-2">
-          From Adambakkam to Jafferkhanpet, our hoardings are strategically located in every major area of Chennai. Maximize your advertising impact with our prime locations.
+          From Adambakkam to Jafferkhanpet, our hoardings are strategically located in every major area of Chennai. 
         </p>
 
       <div className="locations-grid p-2">

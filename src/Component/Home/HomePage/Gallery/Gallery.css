@@ -23,6 +23,7 @@
 
 .album .img {
   width: 100%;
+  border-radius: 8px;
   margin: 0 0 20px 0;
 }
 
@@ -329,5 +330,67 @@ body {
 
   .wk-mobile-12 {
     width: 100%;
+  }
+}
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1320px;
+  margin: auto;
+}
+
+.network-card-two {
+  flex: 1 1 33%;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.network-card-two:hover{
+  box-shadow: 1px 1px 11px 1px rgb(127, 126, 126);
+  transition: 1s;
+}
+.img-container {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  cursor: pointer;
+  /* transition: transform 0.3s; */
+}
+
+/* .img-container:hover .img {
+  transform: scale(1.1);
+} */
+
+/* .overlay {
+  position: absolute;
+  bottom: 50px;
+
+  right: 30px;
+  background: #000000;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 50px;
+  overflow: hidden;
+ 
+} */
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .network-card-two {
+    flex: 1 1 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .network-card-two {
+    flex: 1 1 100%;
   }
 }

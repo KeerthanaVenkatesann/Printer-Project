@@ -1,7 +1,7 @@
 import React from "react";
 import "./GetStarted.css";
 import Whatsapp from "../../Whatsapp/Whatsapp";
-import ContentBoxTwo from "../ContentBoxOne/ContentBoxTwo";
+
 import CarouselTwo from "../HomePage/Carousel/CarouselTwo";
 
 export default function GetStarted() {
