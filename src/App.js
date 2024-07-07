@@ -15,6 +15,7 @@ import Header from "./Component/Home/Header/Header";
 import Gallery from "./Component/Home/HomePage/Gallery/Gallery";
 import Carousel from "./Component/Home/HomePage/Carousel/Carousel";
 import ContentBoxOne from "./Component/Home/ContentBoxOne/ContentBoxOne";
+import Network from "./Component/Network/Network";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     
         <Route path="/carousel" element={<Carousel />}></Route>
         <Route path="/" element={<ContentBoxOne />}></Route>
+        <Route path="/net" element={<Network />}></Route>
       </Routes>
     </BrowserRouter>
   );

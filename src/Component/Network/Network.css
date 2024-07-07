@@ -1,0 +1,146 @@
+.network-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.network-card {
+  position: relative;
+  width: 220px;
+  height: 350px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+.network-card:hover img {
+  transform: scale(1.1);
+}
+
+.network-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+.network-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  opacity: 0.5; 
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.network-card:hover .network-card-overlay {
+  opacity: 1; 
+}
+
+.network-card-content {
+  color: white;
+}
+
+.network-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.network-card-subtitle {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.network-card-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+.parallax {
+  background-image: url("/public/Assests/CarouselImage/paralax.jpg");
+
+
+  min-height: 800px; 
+
+  cursor: pointer;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:1400px 600px;
+  z-index: 1;
+}
+
+.hoardings-container {
+  text-align: center;
+  color: black;
+  background-image: url("/public/Assests/CarouselImage/paralax.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1400px 600px;
+  padding: 50px 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.hoardings-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed */
+  z-index: 1;
+}
+
+.hoardings-container * {
+  position: relative;
+  z-index: 2;
+}
+
+.hoardings-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hoardings-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  gap: 40px;
+  justify-items: start;
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.location-icon {
+  margin-right: 8px;
+}
+

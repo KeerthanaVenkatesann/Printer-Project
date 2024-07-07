@@ -107,7 +107,7 @@ export default function Header() {
     <div className={`header-wrapper ${scrolled ? "scrolled" : ""}`}>
       <Navbar
         expand="lg"
-        className={`navbar-bg fixed-top p-5 ${scrolled ? "scrolled" : ""}`}
+        className={`navbar-bg fixed-top p-2 ${scrolled ? "scrolled" : ""}`}
       >
         <Container>
           <Navbar.Brand href="/" className="text-white">
@@ -134,7 +134,7 @@ export default function Header() {
                 Our Products
               </Nav.Link>
               <Nav.Link
-                href="#customized-prints"
+                href="/net"
                 className="header-list text-white mx-3"
                 activeStyle={{ color: "rgb(182, 35, 35)" }}
               >
