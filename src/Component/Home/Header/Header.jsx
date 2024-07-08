@@ -107,9 +107,9 @@ export default function Header() {
     <div className={`header-wrapper ${scrolled ? "scrolled" : ""}`}>
       <Navbar
         expand="lg"
-        className={`navbar-bg fixed-top p-4 ${scrolled ? "scrolled" : ""}`}
+        className={`navbar-bg fixed-top  ${scrolled ? "scrolled" : ""}`}
       >
-        <Container>
+        <Container className="">
           <Navbar.Brand href="/" className="text-white">
             {/* <Logo /> */}
           </Navbar.Brand>
@@ -131,8 +131,9 @@ export default function Header() {
                 className="header-list text-white mx-3"
                 activeStyle={{ color: "rgb(182, 35, 35)" }}
               >
-                Our Products
+               Gallery
               </Nav.Link>
+              
               <Nav.Link
                 href="/net"
                 className="header-list text-white mx-3"

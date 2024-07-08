@@ -1,12 +1,14 @@
 import React from "react";
 import "./Gallery.css";
 import Footer from "../../Footer/Footer";
+import { BsEmojiHeartEyes } from "react-icons/bs";
 // import { FaWhatsapp } from "react-icons/fa";
 
 export default function Gallery() {
   return (
     <div className=" pt-3">
-   <div className="text-center"> <h2 className="header-list mx-auto">Products and Services</h2></div>  
+   <div className="text-center"> <h2 className="header-list mx-auto">Explore Our Gallery</h2>
+   <h4 className="print mt-3  ">If You Want to place order <a href="/proinfo" className=" text-primary fs-5 click " > Click Here! </a></h4></div>  
       <div className="d-flex justify-content-center mt-5">
         <div>
           <div className="album">

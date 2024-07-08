@@ -10,11 +10,7 @@ export default function Clients() {
   return (
     <div className='carousel-wrapper '>
       <div className='text-center'>
-        <h1 className='mx-auto header-list'>Gallery</h1>
-        <p className='gallery-description print mx-auto w-50 mt-3'>
-  Discover our vibrant collection of digital prints, from captivating photos to unique custom cards. 
-  Perfect for personal and professional use, each piece is designed to impress and inspire.
-</p>
+   
       </div>
       <Carousel
         showThumbs={false}
@@ -40,25 +36,24 @@ export default function Clients() {
           )
         }
       >
-        <div style={{ display: 'flex', justifyContent: 'space-between', borderRadius: "20px" }}>
-          <img src="/Assests/CarouselImage/image1.jpg" alt="Gallery Image 1" style={{ width: '33%', borderRadius: "20px" }} />
-          <img src="/Assests/CarouselImage/image2.jpg" alt="Gallery Image 2" style={{ width: '33%', borderRadius: "20px" }} />
-          <img src="/Assests/CarouselImage/image3.jpg" alt="Gallery Image 3" style={{ width: '33%', borderRadius: "20px" }} />
+        <div style={{ display: 'flex', justifyContent: 'space-between', borderRadius: "15px" }}>
+          <img src="/Assests/Gallery/swrl icon.jpg" alt="Gallery Image 1" style={{ width: '300px',height:"100px", borderRadius: "15px" }} />
+          <img src="/Assests/Gallery/sr vijay mediacl icon.jpg" alt="Gallery Image 2" style={{ width: '200px', borderRadius: "15px" }} />
+          <img src="/Assests/Gallery/sathya elite icon.jpg" alt="Gallery Image 3" style={{ width: '200px', borderRadius: "15px" }} />
+          <img src="/Assests/Gallery/fashion tv icon.png" alt="Gallery Image 2" style={{ width: '200px', borderRadius: "15px" }} />
+          <img src="/Assests/Gallery/kumbakonnam icon.jpg" alt="Gallery Image 7" style={{ width: '200px', borderRadius: "15px" }} />
         </div>
-        <div style={{ display: 'flex', justifyContent: 'space-between', borderRadius: "20px" }}>
-          <img src="/Assests/CarouselImage/image4.jpg" alt="Gallery Image 4" style={{ width: '33%', borderRadius: "20px" }} />
-          <img src="/Assests/CarouselImage/image5.jpg" alt="Gallery Image 5" style={{ width: '33%', borderRadius: "20px" }} />
-          <img src="/Assests/CarouselImage/image6.jpg" alt="Gallery Image 6" style={{ width: '33%', borderRadius: "20px" }} />
+        <div style={{ display: 'flex', justifyContent: 'space-between', borderRadius: "15px" }}>
+          <img src="/Assests/Gallery/narayana group icon.jpg" alt="Gallery Image 4" style={{ width: '200px', borderRadius: "15px" }} />
+          <img src="/Assests/Gallery/mithai icon.jpg" alt="Gallery Image 5" style={{ width: '200px', borderRadius: "15px" }} />
+          <img src="/Assests/Gallery/madrassi icon.jpg" alt="Gallery Image 6" style={{ width: '200px', borderRadius: "15px" }} />
+          <img src="/Assests/Gallery/kids icon.jpg" alt="Gallery Image 8" style={{ width: '200px', borderRadius: "15px" }} />
+          <img src="/Assests/Gallery/karupatti icon.jpg" alt="Gallery Image 9" style={{ width: '200px', borderRadius: "15px" }} />
         </div>
-        <div style={{ display: 'flex', justifyContent: 'space-between', borderRadius: "20px" }}>
-          <img src="/Assests/CarouselImage/image7.jpg" alt="Gallery Image 7" style={{ width: '33%', borderRadius: "20px" }} />
-          <img src="/Assests/CarouselImage/image8.jpg" alt="Gallery Image 8" style={{ width: '33%', borderRadius: "20px" }} />
-          <img src="/Assests/CarouselImage/image9.jpg" alt="Gallery Image 9" style={{ width: '33%', borderRadius: "20px" }} />
-        </div>
+       
       </Carousel>
 
-     <div className='ps-3'> <h3 className='header-list ms-md-5 mb-5 '><a href="/gallery" className='a1'>Show More <FaLongArrowAltRight /></a></h3></div>
-
+    
     </div>
   );
 }

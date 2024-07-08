@@ -7,7 +7,7 @@ import HomePage from "./Component/Home/HomePage/HomePage";
 import About from "./Component/Aboutus/About";
 import Contact from "./Component/Contact/Contact";
 import Logo from "./Component/Logo/Logo";
-import Mail from "./Component/Mail/Mail";
+
 import Loader from "./Component/Loader/Loader";
 import Whatsapp from "./Component/Whatsapp/Whatsapp";
 import Mobile from "./Component/Mobile/Mobile";
@@ -16,6 +16,9 @@ import Gallery from "./Component/Home/HomePage/Gallery/Gallery";
 import Carousel from "./Component/Home/HomePage/Carousel/Carousel";
 import ContentBoxOne from "./Component/Home/ContentBoxOne/ContentBoxOne";
 import Network from "./Component/Network/Network";
+import ProjectInfo from "./Component/Projectinfo/ProjectInfo";
+import Animation from "./Component/Animation/Animation";
+import Clients from "./Component/ClientsLogo/Clients";
 
 
 function App() {
@@ -29,7 +32,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/logo" element={<Logo />}></Route>
-        <Route path="/mail" element={<Mail />}></Route>
+      
         <Route path="/whatsapp" element={<Whatsapp />}></Route>
         <Route path="/mbl" element={<Mobile />}></Route>
         <Route path="/loader" element={<Loader />}></Route>
@@ -38,6 +41,9 @@ function App() {
         <Route path="/carousel" element={<Carousel />}></Route>
         <Route path="/" element={<ContentBoxOne />}></Route>
         <Route path="/net" element={<Network />}></Route>
+        <Route path="/proinfo" element={<ProjectInfo />}></Route>
+        <Route path="/anime" element={<Animation />}></Route>
+        <Route path="/clients" element={<Clients />}></Route>
       </Routes>
     </BrowserRouter>
   );

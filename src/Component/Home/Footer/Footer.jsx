@@ -3,10 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./Footer.css";
 import { FaLongArrowAltRight, FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdOutlineWhatsapp } from "react-icons/md";
 import { PiPaperPlaneRightDuotone } from "react-icons/pi";
 
 const Footer = () => {
+  const phoneNumber = "918681000087";
+  const message = "How To Order";
+
+
   return (
     <footer className="footer-bg text-white pt-5 pb-5 footer-list mt-auto">
       <div className="container  align-items-center">
@@ -98,7 +102,7 @@ const Footer = () => {
           <div className=" text-start">
           
             <div className="list-unstyled  ">
-            <h3 className=" header-list ">CONTACT US</h3>
+            <h3 className=" header-list ">Contact Us</h3>
          <div className="d-flex">
          <li>
                 <a href="mailto:allwin@yourwebsite.com" className="text-white">
@@ -115,6 +119,27 @@ const Footer = () => {
              {/* <i className="fab fa-whatsapp fs-4 border p-2 text-black bg-white rounded-circle"></i> */}
                 </a>
               </li>
+              {/* <li>
+      <a
+        href="https://wa.me/918681000087"
+        className="text-white text-decoration-none"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <MdOutlineWhatsapp  className="fs-2 " />
+      </a>
+    </li> */}
+                 <li>
+      <a
+        href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
+        className="text-white text-decoration-none"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+              <MdOutlineWhatsapp  className="fs-2 " />
+      </a>
+    </li>
+
               </div>
             </div>
           </div>

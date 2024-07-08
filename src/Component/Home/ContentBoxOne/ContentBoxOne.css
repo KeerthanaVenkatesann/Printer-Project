@@ -18,9 +18,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color:rgb(180, 180, 95);
+
+  animation: colorChangetext 3s infinite;
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+
+
+
+@keyframes colorChangetext {
+  0% {
+    color: rgb(183, 56, 151);
+  }
+  33% {
+    color:rgb(104, 182, 182);
+  }
+  66% {
+    color:rgb(180, 180, 95);
+  }
+  100% {
+      color: rgb(183, 56, 151);
+  }
 }
 .card-card{
     width: 23.3%;

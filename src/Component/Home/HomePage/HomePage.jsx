@@ -5,9 +5,11 @@ import "./HomePage.css"; // Import your component CSS file here
 import { HiArrowLongRight } from "react-icons/hi2";
 import Footer from "../Footer/Footer";
 import ContentBoxOne from "../ContentBoxOne/ContentBoxOne";
+import { useNavigate } from "react-router";
 
 
 export default function HomePage() {
+  const nav = useNavigate()
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -15,7 +17,15 @@ export default function HomePage() {
       once: true,
     });
   }, []);
+  const handleSubmit = () =>{
+nav("/proinfo")
 
+  }
+
+  const handlesubmitTwo = () =>{
+    nav("/about")
+  }
+ 
   return (
     <>
     <div className="homepage-container">
@@ -29,11 +39,11 @@ export default function HomePage() {
           <h1 className="allwin-font">Transforming Ideas | Digital Reality</h1>
           <h4 className="allwin-name text-end">Allwin | Digital </h4>
           <div className="text-center allwin-font mt-3">
-            <button className="btn btn-outline-light get-button me-md-4">
+            <button className="btn btn-outline-light get-button me-md-4" onClick={handleSubmit}>
               Get started <HiArrowLongRight />
             </button>
             |
-            <span className=" header-list text-white  ms-md-2 ">
+            <span className=" header-list text-white  ms-md-2 " onClick={handlesubmitTwo}>
               Learn More
             </span>
           </div>

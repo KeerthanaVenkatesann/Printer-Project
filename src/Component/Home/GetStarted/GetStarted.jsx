@@ -11,7 +11,7 @@ export default function GetStarted() {
         <div className=" d-flex justify-content-center   align-items-center mt-3  content-font ">
           <div className="w-75 d-flex justify-content-around bg-given rounded p-3">
             <div className="text-start ">
-              <h5 className="colors-get">Get In</h5>
+              <h5 className="colors-get text-col-text">Get In</h5>
               <h1>Touch With Us</h1>
             </div>
             <div className="whatsapp-button  d-flex justify-content-center   align-items-center  ">

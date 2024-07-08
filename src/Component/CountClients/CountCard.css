@@ -1,0 +1,51 @@
+/* CountUpCard.css */
+.countup-card {
+    /* border: 1px groove #000; */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+
+  }
+  .countup-card:hover{
+    box-shadow: 1px 1px 11px 1px rgb(187, 208, 208);
+    cursor: pointer;
+    transition: 1s;
+  }
+  .countup-card h2 {
+    color: black;
+    font-size: 36px;
+  }
+  
+  .countup-card p {
+    color: #000;
+    font-size: 18px;
+  }
+  
+  /* Additional styles for layout */
+  .countup-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .text-col{
+    font-size: 18px;
+    animation: colorChange 3s infinite;
+  }
+  @keyframes colorChange {
+    0% {
+      color: rgb(183, 56, 151);
+    }
+    33% {
+      color:rgb(104, 182, 182);
+    }
+    66% {
+      color:rgb(180, 180, 95);
+    }
+    100% {
+        color: rgb(183, 56, 151);
+    }
+  }

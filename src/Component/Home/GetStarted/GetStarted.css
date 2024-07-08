@@ -15,11 +15,13 @@
   margin-bottom: -10px;
 }
 
+
 .bg-given {
   position: relative;
   background: linear-gradient(135deg, transparent 10px, rgb(241, 238, 238) 10px),
     linear-gradient(225deg, transparent 10px, rgb(242, 242, 184) 10px);
   background-size: 20px 20px;
+
 }
 
 .bg-given:before {
@@ -31,4 +33,23 @@
   height: 100%;
   background-color: white; /* Adjust as needed */
   z-index: -1;
+}
+
+.text-col-text{
+  font-size: 18px;
+  animation: colorChange 3s infinite;
+}
+@keyframes colorChange {
+  0% {
+    color: rgb(183, 56, 151);
+  }
+  33% {
+    color:rgb(104, 182, 182);
+  }
+  66% {
+    color:rgb(180, 180, 95);
+  }
+  100% {
+      color: rgb(183, 56, 151);
+  }
 }

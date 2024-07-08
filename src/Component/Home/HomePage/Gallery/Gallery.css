@@ -394,3 +394,6 @@ body {
     flex: 1 1 100%;
   }
 }
+.click{
+  text-decoration:underline !important;
+}
