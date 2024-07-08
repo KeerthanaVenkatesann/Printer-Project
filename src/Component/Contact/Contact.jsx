@@ -33,16 +33,17 @@ export default function Contact() {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="text-start shadow rounded allwin-name p-5  mt-md-5 border-anime ">
-            <h3 className="content-font header-list mb-4   ">
+          <div className="text-start shadow rounded allwin-name p-5 card  mt-md-5 ">
+            <h3 className="content-font  mb-4 card-header  ">
               Allwin Digital - Vadapalani 
             </h3>
+            <div className="card-body">
             <p className="listed "> 21 South sivan koil street</p>
             <p className="listed">100 Feet Rd</p>
             <p className="listed ">Chennai</p>
             <p className="listed">Tamil Nadu</p>
-            <p className="listed ">600026</p>
-            <p className="listed">8681000087</p>
+            <p className="listed ">600026</p></div>
+            <p className="listed card-footer">8681000087</p>
            
           </div>
         </div>
