@@ -1,147 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root{
-    --index: calc(1vw + 1vh);
-    --transition: cubic-bezier(.1, .7, 0, 1);
-}
-
-
-
-.wrapper{
+.carousel-wrapper {
+    text-align: center;
+  }
+  
+  .carousel-wrapper .d-flex {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-}
-
-.items{
-    display: flex;
-    gap: 0.4rem;
-    perspective: calc(var(--index) * 34);
-}
-
-.item{
-    width: calc(var(--index) * 3);
-    height: calc(var(--index) * 12);
-    background-color: #222;
-    background-size: cover;
-    background-position: center;
-
-    cursor: pointer;
-    filter: grayscale(1) brightness(.5);
-    transition: transform 1.25s var(--transition), filter 3s var(--transition), width 1.25s var(--transition);
-    will-change: transform, filter, rotateY, width;
-}
-
-.item::before, .item::after{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 20px;
-    right: calc(var(--index) * -1);
-}
-
-.item::after{
-    left: calc(var(--index) * -1);
-}
-
-.items .item:hover{
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * 10));
-}
-
-/*Right*/
-
-.items .item:hover + *{
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * 8.5)) rotateY(35deg);
-    z-index: -1;
-}
-
-.items .item:hover + * + *{
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * 5.6)) rotateY(40deg);
-    z-index: -2;
-}
-
-.items .item:hover + * + * + *{
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * 2.5)) rotateY(30deg);
-    z-index: -3;
-}
-
-.items .item:hover + * + * + * + *{
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * .6)) rotateY(15deg);
-    z-index: -4;
-}
-
-
-/*Left*/
-
-.items .item:has( + :hover){
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * 8.5)) rotateY(-35deg);
-}
-
-.items .item:has( + * + :hover){
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * 5.6)) rotateY(-40deg);
-}
-
-.items .item:has( + * + * + :hover){
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * 2.5)) rotateY(-30deg);
-}
-
-.items .item:has( + * + * + * + :hover){
-    filter: inherit;
-    transform: translateZ(calc(var(--index) * .6)) rotateY(-15deg);
-}
-
-.items .item:active, .items .item:focus {
-	width: 28vw;
-	filter: inherit;
-	z-index: 100;
-	transform: translateZ(calc(var(--index) * 10));
-    margin: 0 .45vw;
-}
-
-/* second carousal */
-.carousal{
-    width: 92% !important;
-}
-
-/* Carousel.css */
-.carousel .control-arrow {
-    background: transparent !important;
+    flex-wrap: wrap;
   }
   
-  .carousel .control-arrow:before {
-    border: solid transparent !important;
+  .carousel-wrapper img {
+    
+    object-fit: cover;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Scrollbar styling for WebKit browsers */
-  .carousel-wrapper::-webkit-scrollbar {
-    width: 8px;
+  .Image1{
+    width: 750px !important;
+    height:100px !important;
+    
   }
-  
-  .carousel-wrapper::-webkit-scrollbar-track {
-    background: transparent;
+  .Image2{
+    width: 360px !important;
+    height:100px !important;
   }
-  
-  .carousel-wrapper::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
+  .Image3{
+    width:100px !important;
+    height:100px !important;
   }
-  
-  /* Scrollbar styling for Firefox */
-  .carousel-wrapper {
-    scrollbar-color: rgba(0, 0, 0, 0.6) transparent;
-    scrollbar-width: thin;
+  .Image4{
+    width:100px !important;
+    height:100px !important;
   }
-  
+.Image5{
+    width:100px !important;
+    height:100px !important;
+}
+.Image6{
+    width:100px !important;
+    height:100px !important;
+}
+.Image7{
+    width: 260px !important;
+    height: 100px !important;
+}
+.Image8{
+    width:130px !important;
+    height:100px !important;
+}
+.Image9{
+    width: 260px !important;
+    height: 100px !important;
+}
+.Image10{
+    width: 560px !important;
+    height:100px !important;
+}

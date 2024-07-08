@@ -78,6 +78,7 @@ import CurvedText from "./CurvedText";
 import "./Curved.css";
 import "./ProductCard.css";
 import CoutClients from "../CountClients/CoutClients";
+import Clients from "../ClientsLogo/Clients";
 
 
 
@@ -139,6 +140,7 @@ const ProjectInfo = () => {
         </div>
       </div>
       <CoutClients/>
+      <Clients />
       <Footer />
     </>
   );

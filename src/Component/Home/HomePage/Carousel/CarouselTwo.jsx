@@ -1,42 +1,4 @@
-// import React from 'react';
-// import "./Carousel.css"
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
-// import { Carousel } from 'react-responsive-carousel';
 
-// export default function CarouselTwo() {
-//   return (
-//     <div>
-//     <div className='text-center'><h1 className='mx-auto header-list'>Gallery</h1></div> 
-//       <Carousel
-//         showThumbs={false}
-//         autoPlay
-//         infiniteLoop
-//         showStatus={false}
-//         showIndicators={false}
-//         emulateTouch
-//         useKeyboardArrows
-//         className=' carousal m-5 mx-auto '
-       
-//       >
-//         <div style={{ display: 'flex', justifyContent: 'space-between' , borderRadius:"20px"}}>
-//           <img src="/Assests/CarouselImage/image1.jpg" alt="Gallery Image 1" style={{ width: '33%', borderRadius:"20px" }} />
-//           <img src="/Assests/CarouselImage/image2.jpg" alt="Gallery Image 2" style={{ width: '33%', borderRadius:"20px"  }} />
-//           <img src="/Assests/CarouselImage/image3.jpg" alt="Gallery Image 3" style={{ width: '33%', borderRadius:"20px"  }} />
-//         </div>
-//         <div style={{ display: 'flex', justifyContent: 'space-between', borderRadius:"20px"  }}>
-//           <img src="/Assests/CarouselImage/image4.jpg" alt="Gallery Image 4" style={{ width: '33%', borderRadius:"20px"  }} />
-//           <img src="/Assests/CarouselImage/image5.jpg" alt="Gallery Image 5" style={{ width: '33%', borderRadius:"20px"  }} />
-//           <img src="/Assests/CarouselImage/image6.jpg" alt="Gallery Image 6" style={{ width: '33%', borderRadius:"20px"  }} />
-//         </div>
-//         <div style={{ display: 'flex', justifyContent: 'space-between', borderRadius:"20px"  }}>
-//           <img src="/Assests/CarouselImage/image7.jpg" alt="Gallery Image 7" style={{ width: '33%', borderRadius:"20px"  }} />
-//           <img src="/Assests/CarouselImage/image8.jpg" alt="Gallery Image 8" style={{ width: '33%', borderRadius:"20px"  }} />
-//           <img src="/Assests/CarouselImage/image9.jpg" alt="Gallery Image 9" style={{ width: '33%', borderRadius:"20px"  }} />
-//         </div>
-//       </Carousel>
-//     </div>
-//   );
-// }
 import React from 'react';
 import "./Carousel.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles

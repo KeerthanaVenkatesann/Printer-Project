@@ -8,6 +8,7 @@ import GetStarted from '../GetStarted/GetStarted';
 import Footer from '../Footer/Footer';
 import Animation from '../../Animation/Animation';
 import CoutClients from '../../CountClients/CoutClients';
+import Clients from '../../ClientsLogo/Clients';
  // Example icons from react-icons
 
 export default function ContentBoxOne() {
@@ -43,6 +44,7 @@ export default function ContentBoxOne() {
     <GetStarted />
     <Animation />
     <CoutClients />
+    <Clients />
     <Footer />
     </>
   );

@@ -3,6 +3,9 @@ import "./Aboutus.css";
 import CountUp from 'react-countup';
 import { TiTickOutline } from "react-icons/ti";
 import CarouselTwo from "../Home/HomePage/Carousel/CarouselTwo";
+import CoutClients from "../CountClients/CoutClients";
+import Footer from "../Home/Footer/Footer";
+import Clients from "../ClientsLogo/Clients";
 
 export default function About() {
   const [triggerCount, setTriggerCount] = useState(false);
@@ -17,13 +20,14 @@ export default function About() {
       <div className="mx-auto text-center">
         <div>
           <h1 className="header-list mb-3">About Us</h1>
-          <p className="fs-3 w-75 mx-auto">
+          <p className="fs-3 w-75 mx-auto mt-3 mb-3">
             Allwin Digital was inaugurated in 2014 and has since evolved into a leading outdoor advertising agency in Chennai. We specialize in advertising brands across various media platforms, including hoardings, cinema halls, shopping malls, railway stations, airports, and other public places in metropolitan cities.
           </p>
         </div>
-        <div className="mt-3">
-          <h1 className="header-list mb-3 mt-3">Why Us?</h1>
-          <h4><TiTickOutline className="fs-2 mb-1" />15 Years of Experience in Advertising</h4>
+        <div className="mt-3 mb-3 ">
+          <div className="w-50 card mx-auto m-5">
+          <h1 className=" mb-3   card-header">Why Us?</h1>
+          <h4 className="mt-3"><TiTickOutline className="fs-2 mb-1 mt-1" />15 Years of Experience in Advertising</h4>
           <p>
             With over 15 years of expertise, we excel in delivering effective advertising solutions.
           </p>
@@ -43,7 +47,7 @@ export default function About() {
           <p>
             We pride ourselves on being flexible and meeting the unique needs of each client.
           </p>
-        </div>
+        </div></div>
       </div>
 
       <div className="d-flex">
@@ -64,6 +68,9 @@ export default function About() {
       </div>
     </div>
 <CarouselTwo />
+<CoutClients />
+<Clients />
+<Footer />
     </>
   );
 }
