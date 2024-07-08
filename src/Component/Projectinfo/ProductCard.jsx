@@ -7,15 +7,16 @@ const ProductCard = ({ image, title, whatsappMessage }) => {
   const whatsappLink = `https://wa.me/918681000087?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
-    <div className="product-card">
+  <> <div className='d-block'> <div className="product-card">
       <img src={image} alt={title} className="product-image" />
-      <div className="product-info">
+      
+    </div>
+    <div className="product-info">
         <div className="product-title">{title}</div>
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="whatsapp-button-two">
-          <FaWhatsapp className="whatsapp-icon" /> {title}
+          <FaWhatsapp className="whatsapp-icon fs-4" /> {title}
         </a>
-      </div>
-    </div>
+      </div></div></>
   );
 };
 

@@ -12,6 +12,7 @@ const Footer = () => {
 
 
   return (
+    <>
     <footer className="footer-bg text-white pt-5 pb-5 footer-list mt-auto">
       <div className="container  align-items-center">
         
@@ -146,6 +147,11 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+ <div className="last-div-copywrite ">
+  <span></span>
+ </div>
+
+    </>
   );
 };
 

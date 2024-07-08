@@ -40,7 +40,7 @@ function App() {
     
         <Route path="/carousel" element={<Carousel />}></Route>
         <Route path="/" element={<ContentBoxOne />}></Route>
-        <Route path="/net" element={<Network />}></Route>
+        <Route path="/hoarding" element={<Network />}></Route>
         <Route path="/proinfo" element={<ProjectInfo />}></Route>
         <Route path="/anime" element={<Animation />}></Route>
         <Route path="/clients" element={<Clients />}></Route>

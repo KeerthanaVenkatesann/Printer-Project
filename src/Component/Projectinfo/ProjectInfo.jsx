@@ -77,6 +77,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import CurvedText from "./CurvedText";
 import "./Curved.css";
 import "./ProductCard.css";
+import CoutClients from "../CountClients/CoutClients";
 
 
 
@@ -115,11 +116,11 @@ const ProjectInfo = () => {
           <h1 className="header-list mb-5">Products and Service</h1>
         </header>
         <div className="d-flex justify-content-center">
-          <div className="w-50 d-flex justify-content-center position-relative">
+          <div className="w-50 d-flex justify-content-center position-relative mb-5">
             <img className="img-girl mb-5 mt-4" src="/Assests/Gallery/firstimage-removebg.png" alt="firstimg" />
             <CurvedText />
           </div>
-          <div className="w-50 mt-3">
+          <div className="w-50 mt-2">
             <div className="album">
               {products.map((product, index) => (
                 <ProductCard
@@ -137,6 +138,7 @@ const ProjectInfo = () => {
           </div>
         </div>
       </div>
+      <CoutClients/>
       <Footer />
     </>
   );

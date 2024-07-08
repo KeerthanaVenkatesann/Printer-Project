@@ -1,7 +1,7 @@
 .allwin-print {
   padding: 20px;
   
-  color: black;
+  /* color: black; */
 }
 
 .stats-container {
@@ -45,9 +45,9 @@
 
 .text-col-text{
   font-size: 18px;
-  animation: colorChange 3s infinite;
+  animation: colorChangeabout 3s infinite !important;
 }
-@keyframes colorChange {
+@keyframes colorChangabout {
   0% {
     color: rgb(183, 56, 151);
   }

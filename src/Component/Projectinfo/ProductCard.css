@@ -4,8 +4,10 @@
     flex-direction: column;
     align-items: center;
     width: 200px;
+  
+  border:  2ps solid black !important;
     margin: 10px;
-    border-radius: 15px;
+    border-radius: 50%;
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -18,8 +20,9 @@
   
   .product-image {
     width: 100%;
-    height: 150px;
+    height: 170px;
     object-fit: cover;
+
   }
   
   .product-info {
@@ -36,18 +39,21 @@
   .whatsapp-button-two {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #25d366;
-    color: #fff;
-    border: none;
+    /* justify-content: center; */
+
+    color: black;
+    border:1px solid black;
     border-radius: 20px;
     padding: 8px 15px;
     text-decoration: none;
-    transition: background-color 0.2s;
+
   }
   
   .whatsapp-button-two:hover {
-    background-color: #128c7e;
+    color: #fff;
+    background-color: black;
+    transition:  1s;
+   box-shadow: 1px 1px 11px 1px rgb(137, 137, 137);
   }
   
   .whatsapp-icon {

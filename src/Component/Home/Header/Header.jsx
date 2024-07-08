@@ -133,9 +133,9 @@ export default function Header() {
               >
                Gallery
               </Nav.Link>
-              
+
               <Nav.Link
-                href="/net"
+                href="/hoarding"
                 className="header-list text-white mx-3"
                 activeStyle={{ color: "rgb(182, 35, 35)" }}
               >
