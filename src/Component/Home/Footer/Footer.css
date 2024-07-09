@@ -48,6 +48,27 @@ a:hover{
 }
 
 }
+@media screen and (max-width:426px){
+    .contact-karo{
+        margin-top: 50px;
+    }
+    .last-div-copywrite{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer-last-divs{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+    }
+   .foot{
+    text-align: center;
+   }
+}
 
 
 

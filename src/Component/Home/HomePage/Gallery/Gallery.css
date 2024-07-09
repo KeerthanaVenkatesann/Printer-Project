@@ -471,3 +471,7 @@ body {
     flex: 1 1 100%;
   }
 }
+
+@media screen and (max-width:375px) {
+  
+}

@@ -1,124 +1,125 @@
+.map {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border: none;
+}
 
+.iframe-map {
+  width: 800px;
+  height: 550px;
+}
 
-   .map {
-    width: 100%;
-    max-width: 600px;
-    height: 450px;
-    border: none;
-  }
-  
-  .iframe-map {
-    width: 800px;
-    height: 550px;
-  
-  }
-  
-  
+.get-contact:hover {
+  background-color: rgb(180, 180, 95) !important;
+  border-color: rgb(180, 180, 95) !important;
+  transition: 1s !important;
+  border: 2px solid;
+}
 
-  
-  .get-contact:hover {
-    background-color: rgb(180, 180, 95) !important;
-    border-color: rgb(180, 180, 95) !important;
-    transition: 1s !important;
-    border: 2px solid;
-  }
-  
-  .get-contact {
-    font-size: 50px !important;
-    color: black;
-    border-radius: 50% !important;
-    margin: 10px;
-  }
+.get-contact {
+  font-size: 50px !important;
+  color: black;
+  border-radius: 50% !important;
+  margin: 10px;
+}
 
-  
-  
-  .text-content2 h5 {
-    color: #e74c3c;
-    margin-bottom: 10px;
-    text-decoration: underline;
-  }
- 
-  
- 
+.text-content2 h5 {
+  color: #e74c3c;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
 
-  
-  .border-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1px;
-    /* width: 300px; */
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  /* width: 300px; */
+  border: 1px solid transparent;
+  border-radius: 5px;
+  animation: bordercolor 3s infinite;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes bordercolor {
+  0% {
+    background-image: linear-gradient(white, white),
+      linear-gradient(to right, #000000, rgb(183, 56, 151));
     border: 1px solid transparent;
     border-radius: 5px;
-   animation: bordercolor 3s infinite;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-
-  @keyframes bordercolor {
-    0% {
-        background-image: linear-gradient(white, white), linear-gradient(to right, #000000, rgb(183, 56, 151));
-        border: 1px solid transparent;
-        border-radius: 5px;
-       animation: bordercolor 3s infinite;
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: 1s;
-    }
-    33% {
-        background-image: linear-gradient(white, white), linear-gradient(to right, #000000, rgb(104, 182, 182));
-        border: 1px solid transparent;
-        border-radius: 5px;
-       animation: bordercolor 3s infinite;
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: 1s;
-    }
-    66% {
-        background-image: linear-gradient(white, white), linear-gradient(to right, #000000, rgb(180, 180, 95));
-        border: 1px solid transparent;
-    border-radius: 5px;
-   animation: bordercolor 3s infinite;
+    animation: bordercolor 3s infinite;
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: 1s;
-    }
-    100% {
-        background-image: linear-gradient(white, white), linear-gradient(to right, #000000, rgb(183, 56, 151));
-        border: 1px solid transparent;
-        border-radius: 5px;
-       animation: bordercolor 3s infinite;
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: 1s;
-    }
   }
- 
-.curse{
-    cursor: pointer;
+  33% {
+    background-image: linear-gradient(white, white),
+      linear-gradient(to right, #000000, rgb(104, 182, 182));
+    border: 1px solid transparent;
+    border-radius: 5px;
+    animation: bordercolor 3s infinite;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+  }
+  66% {
+    background-image: linear-gradient(white, white),
+      linear-gradient(to right, #000000, rgb(180, 180, 95));
+    border: 1px solid transparent;
+    border-radius: 5px;
+    animation: bordercolor 3s infinite;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+  }
+  100% {
+    background-image: linear-gradient(white, white),
+      linear-gradient(to right, #000000, rgb(183, 56, 151));
+    border: 1px solid transparent;
+    border-radius: 5px;
+    animation: bordercolor 3s infinite;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+  }
 }
 
-@media screen  and (max-width:1024px){
+.curse {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
   .iframe-map {
     width: 600px;
     height: 450px;
-   
   }
-  
 }
 
-@media screen  and (max-width:768px){
+@media screen and (max-width: 768px) {
   .iframe-map {
     width: 350px;
     height: 480px;
-   
   }
-  
+}
+@media screen and (max-width: 426px) {
+  .map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
 }

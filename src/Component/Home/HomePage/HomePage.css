@@ -50,8 +50,15 @@
   transition: 1s !important;
 }
 
-.first-image-girl {
-  width: 570px;
-  height: 800px;
-  /* border-radius: 53% 47% 50% 75% / 90% 87% 97% 32%; */
+
+/* 
+@media screen and (min-width:767px) {
+  .ideas{
+    font-size: 2.7rem ;
+  }
+} */
+@media screen and (min-width:375px) {
+  .ideas{
+    font-size: 20px ;
+  }
 }

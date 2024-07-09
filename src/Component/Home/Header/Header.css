@@ -99,23 +99,30 @@
 .offcanvas-body .nav-link {
   margin: 10px 0;
 }
-.custom-close-button{
+.custom-close-button {
   color: white !important;
   margin-top: 1px !important;
   margin-left: 7px !important;
 }
 
-.nav-text-canva{
-  color:whitesmoke !important;
+.nav-text-canva {
+  color: whitesmoke !important;
   border-bottom: 1px solid whitesmoke !important;
   /* width: fit-content !important; */
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .navbar-bg.scrolled {
-   
     height: 100px;
   }
   .navbar {
-  
-   --bs-navbar-padding-y: 0 !important;}
+    --bs-navbar-padding-y: 0 !important;
+  }
+}
+@media screen and (max-width:426px) {
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-around !important;
+}
 }

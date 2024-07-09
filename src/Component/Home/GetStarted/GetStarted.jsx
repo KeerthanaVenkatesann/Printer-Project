@@ -11,7 +11,7 @@ export default function GetStarted() {
         <div className=" d-flex justify-content-center   align-items-center   content-font ">
           <div className="w-75  bg-given rounded p-3 d-flex justify-content-around ">
            
-              <div className="text-start ">
+              <div className="text-start get-in-start ">
                 <h4 className=" text-col ">Get In</h4>
                 <h1 className="text-black">Touch With Us</h1>
               </div>

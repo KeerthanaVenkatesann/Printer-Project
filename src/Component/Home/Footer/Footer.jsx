@@ -21,7 +21,7 @@ const Footer = () => {
       <footer className="footer-bg text-white pt-5 pb-5 footer-list mt-auto">
         <div className="container  align-items-center">
           <div className="footer-flex mt-4  justify-content-between ">
-            <div className=" text-start">
+            <div className=" text-start foot">
               <h3 className="header-list">
                 <a href="/gallery">Service</a> 
               </h3>
@@ -182,7 +182,7 @@ const Footer = () => {
 
             <div className=" ">
               <div className="list-unstyled footer-last-divs text-start ">
-               <div> <h3 className=" header-list mt-sm-5 mt-lg-0 ">
+               <div> <h3 className=" header-list mt-sm-5 mt-lg-0 contact-karo ">
                   Contact Us 
                 </h3>
                 <div className="d-flex">

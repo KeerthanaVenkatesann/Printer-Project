@@ -8,12 +8,12 @@
 //   return (
 //     <div className=" pt-3">
 //       <div className="text-center">
-        
+
 //         <h2 className="header-list mx-auto fs-1 mt-md-3">Explore Our Gallery</h2>
 //         <h5 className="print mt-3  ">
 //           If You Want to place order
 //           <a href="/proinfo" className=" text-primary fs-6 click ">
-            
+
 //             Click Here!
 //           </a>
 //         </h5>
@@ -164,7 +164,9 @@ export default function Gallery() {
   return (
     <div className=" pt-3">
       <div className="text-center">
-        <h2 className="header-list mx-auto fs-1 mt-md-3">Explore Our Gallery</h2>
+        <h2 className="header-list mx-auto fs-1 mt-md-3">
+          Explore Our Gallery
+        </h2>
         <h5 className="print mt-3  ">
           If You Want to place order
           <a href="/proinfo" className=" text-primary fs-6 click ">
@@ -172,7 +174,7 @@ export default function Gallery() {
           </a>
         </h5>
       </div>
-      <div className="d-flex justify-content-center mt-5">
+      <div className="d-flex justify-content-center mt-md-5">
         <div>
           <div className="album">
             <div className="responsive-container-block bg">

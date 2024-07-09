@@ -134,6 +134,11 @@
   .short-about-container {
     display: flex;
     justify-content: center;
+    padding: 0px;
    flex-direction: column-reverse;
   }
+  .butterfly{
+    width: 280px;
+    height: 380px;
+}
 }
