@@ -10,7 +10,7 @@ export default function CoutClients() {
   ];
 
   return (
-    <div className="countup-section">
+    <div className="countup-section animate__backInUp animate__animated  animate__repeat-1">
       {data.map((item, index) => (
         <CountCard key={index} end={item.end} label={item.label} />
       ))}

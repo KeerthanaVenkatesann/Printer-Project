@@ -7,7 +7,7 @@ const Animation = () => {
 
   return (
     <div >
-     <div id="container" className="text-center mb-5  mt-5 print">
+     <div id="container" className="text-center mb-5  mt-5 print animate__animated animate__fadeInUp animate__repeat-1">
    Make
   <div id="flip">
     <div><div>Customize</div></div>

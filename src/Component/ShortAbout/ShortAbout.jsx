@@ -9,7 +9,7 @@ export default function ShortAbout() {
     }
   return (
     <div className="short-about-container print">
-      <div className="text-content">
+      <div className="text-content animate__animated animate__slideInLeft animate__repeat-1">
         <h5 onClick={handleAbout} className='curse'>Get To Know</h5>
         <h1>About Us </h1>
         <h2 className='cursive-font-two'>Allwin Digital</h2>
@@ -21,7 +21,7 @@ export default function ShortAbout() {
 
 </div>
       </div>
-      <div className="image-content">
+      <div className="image-content animate__animated animate__slideInRight animate__repeat-1 ">
         <img src="/Assests/bg-removebg-preview (2).png" className='butterfly' />
       </div>
     </div>
