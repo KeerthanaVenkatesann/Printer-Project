@@ -6,6 +6,7 @@ export default function Clients() {
   return (
     <div className='text-center  mb-5 bg-client py-5 '>
       <h2 className='text-center header-list mb-4'>Our Clients</h2>
+      
        <div className='d-md-flex justify-content-around'>
         <img src="/Assests/Gallery/swrl icon.jpg" alt="Gallery Image1" className='shadow m-2 Image1 rounded' />
         <img src="/Assests/Gallery/sr vijay mediacl icon.jpg" alt="Gallery Image2" className='shadow m-2 Image2 rounded' />

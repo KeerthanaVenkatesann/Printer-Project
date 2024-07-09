@@ -8,7 +8,8 @@ import "./CountCard.css";
       <div className="countup-card card print ">
         <h2>
           <CountUp end={end} duration={10} />
-          +
+        
+         <span className='text-danger'>+</span> 
         </h2>
         <p className='text-col'>{label}</p>
       </div>

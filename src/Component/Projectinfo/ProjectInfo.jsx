@@ -113,7 +113,54 @@ const products = [
     whatsappMessage: "Hello, I am interested in this product.",
       title: "LED standy"
   },
-];
+  {
+    image: "/Assests/CarouselImage/image8.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "LED solar light board"
+  },
+  {
+    image: "/Assests/Gallery/open bar.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "neon board"
+  },
+  {
+    image: "/Assests/Gallery/mrg.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Backlight Board"
+  },
+
+  {
+    image: "/Assests/Gallery/IMG-20240530-WA0035.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Gold acrylic"
+  },
+  {
+    image: "/Assests/Gallery/IMG_20240625_111409.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Neon"
+  },
+  {
+    image: "/Assests/Gallery/10 x 10 MS 1.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Flex Design"
+  },
+ 
+  {
+    image: "/Assests/Gallery/3X3 FOAM.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Foam"
+  },
+  {
+    image: "/Assests/Gallery/LETTER HEAD.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Letter Head"
+  },
+  {
+    image: "/Assests/Gallery/bhat villa2.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "2d Light Board"
+  },
+]
 
 const ProjectInfo = () => {
   return (
@@ -123,11 +170,7 @@ const ProjectInfo = () => {
           <h1 className="header-list mb-5">Products and Service</h1>
         </header>
         <div className="d-flex justify-content-center">
-          <div className="w-50 d-flex justify-content-center position-relative mb-5">
-            {/* <img className="img-girl mb-5 mt-4" src="/Assests/Gallery/firstimage-removebg.png" alt="firstimg" /> */}
-            <CurvedText />
-          </div>
-          <div className="w-50 mt-2">
+          <div className=" mt-2">
             <div className="album">
               {products.map((product, index) => (
                 <ProductCard

@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 
 import { useNavigate } from "react-router";
 import BallAnimation from "../../BallAnimation/BallAnimation";
+import Logo from "../../Logo/Logo";
 
 export default function HomePage() {
   const nav = useNavigate();
@@ -30,20 +31,22 @@ export default function HomePage() {
       <div className="homepage-container">
         <div className="content-container d-flex justify-content-center">
           <div
-            data-aos="fade-right"
+          
+          >
+            <h1 className="allwin-font fs-1 text-container"   data-aos="zoom-in"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
-            className="text-container"
-          >
-            <h1 className="allwin-font">
+           >
               Transforming Ideas | Digital Reality
             </h1>
             <h2 className=" text-center ">
-              <i className="cursive-font  ">Allwin | Digital </i>
+        
             </h2>
-            {/* <div className="text-center allwin-font mt-3">
+            <div className="text-center allwin-font mt-3 text-container"   data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <button
-                className="btn btn-outline-light get-button me-md-4"
+                className="btn btn-outline-light get-button me-md-4 fs-3"
                 onClick={handleSubmit}
               >
                 Get started <HiArrowLongRight />
@@ -55,16 +58,9 @@ export default function HomePage() {
               >
                 Learn More
               </span>
-            </div> */}
+            </div>
           </div>
-          <div
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-            className="text-container mb-3 mt-4"
-          >
-            {/* <img src="/Assests/bg.jpg" alt="" className="first-image-girl mb-5 mt-5" /> */}
-          </div>
+       
         </div>
       </div>
     </>

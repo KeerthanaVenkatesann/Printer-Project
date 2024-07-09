@@ -334,7 +334,7 @@ export default function Gallery() {
                     </div>
                   </div>
                 </div>
-                <div className="network-card-two">
+                {/* <div className="network-card-two">
                   <img className="img" src="/Assests/Gallery/imagee.jpg" />
                   <div className="overlay">
                     <div className="whatsapp-number">
@@ -343,11 +343,11 @@ export default function Gallery() {
                         href="tel:+918681000087"
                         className="text-white text-decoration-none"
                       >
-                        {/* <FaWhatsapp className="fs-2" /> */}
+                       
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="responsive-container-block img-cont">
                 <div className="network-card-two">

@@ -10,7 +10,7 @@ export default function Whatsapp() {
   return (
     <div >
       <button
-        className="btn btn-outline-light get-button-two  content-font  "
+        className="btn btn-outline-black get-button-two  content-font  "
         onClick={handleWhatsAppRedirect}
       >
        Direct whatsapp <PiWhatsappLogoDuotone />

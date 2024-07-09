@@ -182,7 +182,9 @@ const Footer = () => {
 
             <div className=" text-start">
               <div className="list-unstyled  ">
-                <h3 className=" header-list ">Contact Us</h3>
+                <h3 className=" header-list ">
+                  Contact Us <FaLongArrowAltRight />
+                </h3>
                 <div className="d-flex">
                   <li>
                     <a
@@ -224,13 +226,28 @@ const Footer = () => {
                     </a>
                   </li>
                 </div>
+                <h3 className=" header-list mt-5">
+                  Timing
+                  <FaLongArrowAltRight />
+                </h3>
+                <li>9.00am to 9.00pm</li>
+
+                <h3 className=" header-list mt-5">
+                  Location
+                  <FaLongArrowAltRight />
+                </h3>
+                <li>21 South Sivan Kovil street</li>
+                <li>100 Feet Rd</li>
+                <li> Chennai-600026</li>
               </div>
             </div>
           </div>
         </div>
       </footer>
       <div className="last-div-copywrite p-2 print shadow-sm">
-        <div className="text-light text-center ">© 2024 Allwin Digital – All Rights Reserved.</div>
+        <div className="text-light text-center ">
+          © 2024 Allwin Digital – All Rights Reserved.
+        </div>
       </div>
     </>
   );

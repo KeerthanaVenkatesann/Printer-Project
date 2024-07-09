@@ -22,7 +22,7 @@ export default function ShortAbout() {
 </div>
       </div>
       <div className="image-content">
-        {/* <img src="path/to/side-image.png" /> */}
+        <img src="/Assests/bg-removebg-preview (2).png" className='butterfly' />
       </div>
     </div>
   );

@@ -34,7 +34,7 @@ export default function Header() {
         className={`navbar-bg fixed-top  ${scrolled ? "scrolled" : ""}`}
       >
         <Container className="">
-          <Navbar.Brand href="/" className="text-white">
+          <Navbar.Brand href="/" className="text-white ">
             <Logo />
           </Navbar.Brand>
           <Navbar.Toggle

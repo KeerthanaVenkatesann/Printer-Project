@@ -1,6 +1,6 @@
 .short-about-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px;
     background-color: #f9f9f9;
@@ -40,28 +40,24 @@
     /* margin-top: 20px; */
   }
   
-  .logo-container img {
-    width: 100px;
-    margin-right: 10px;
-  }
   
   .logo-container p {
     font-size: 18px;
     font-weight: bold;
   }
   
-  .image-content {
+  /* .image-content {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
   
-  .image-content img {
+  /* .image-content img {
     width: 100%;
     height: auto;
     border-radius: 15px;
-  }
+  } */
   
   .border-container {
     display: flex;
@@ -121,11 +117,16 @@
         transition: 1s;
     }
   }
-  .border-container img {
+  /* .border-container img {
     width: 100px;
     margin-bottom: 10px;
-  }
+  } */
   
 .curse{
     cursor: pointer;
+}
+
+.butterfly{
+    width: 300px;
+    height: 400px;
 }

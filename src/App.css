@@ -1,9 +1,8 @@
 .header-list {
-  font-family: "Saira", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500 !important;
-  font-variation-settings: "wdth" 100;
-  cursor: pointer;
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem !important;
 }
 .footer-list {
   font-family: "Saira", sans-serif;
@@ -12,10 +11,10 @@
   font-variation-settings: "wdth" 100;
 }
 .allwin-font {
-  font-family: "Saira", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-variation-settings: "wdth" 100;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem !important;
 }
 .allwin-title{
    font-family: "Arizonia", cursive;
@@ -100,7 +99,14 @@
   font-style: normal;
 }
 .creeper {
-  font-family: "Creepster", system-ui;
+  /* font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: "Niconne", cursive;
   font-weight: 400;
   font-style: normal;
+  /* font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+ 
 }

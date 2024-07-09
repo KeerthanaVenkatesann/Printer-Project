@@ -14,12 +14,14 @@ import GetStarted from "../Home/GetStarted/GetStarted";
 export default function Contact() {
   return (
     <>
+<div className="text-center mt-4">
+    <h1 className="header-list  fs-1">Contact us For Queries</h1></div>
          <GetStarted />
-      <div className="text-center mb-5 ">
+      <div className="text-center ">
         {/* <h1 className="header-list">Get In Touch With Us</h1> */}
-        <div className="print fs-3 text-danger">We're thrilled to begin a new project with you!</div>
-        <div className="d-flex justify-content-around align-items-center  mt-5 mx-auto ">
-       <div className="map ">
+        {/* <div className="print fs-3 ">We're thrilled to begin a new project with you!</div> */}
+        <div className="d-flex justify-content-around align-items-center   mx-auto ">
+       <div className="map w-75">
             {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.858015654034!2d80.21097107484266!3d13.04470828727745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267af4ed6df25%3A0xbf06d102c10708f1!2sAllwin%20Digital!5e0!3m2!1sen!2sin!4v1720109529423!5m2!1sen!2sin"
             style={{ border: 0 }}
@@ -38,20 +40,28 @@ export default function Contact() {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="text-start shadow rounded allwin-name p-4 card  mt-md-5 ">
-            <div className="card p-3">
-            <h3 className="content-font  mb-4 card-header  ">
-              Allwin Digital - Vadapalani 
-            </h3>
+          <div className="text-start  allwin-name p-4  mt-md-5 w-25 text-content2">
+            <div className="p-3">
+            <h5 className='curse'>Get To Touch</h5>
+            <h1 className="content-font  mb-4   ">
+            Contact Us If You Have More Questions.
+            </h1>
+            <h2 className='cursive-font-two'>Allwin Digital</h2>
             <div className="card-body">
             <p className="listed print "><IoIosArrowRoundForward className="text-danger" /> 21 South sivan koil street,</p>
             <p className="listed  print"><IoIosArrowRoundForward className="text-danger" />100 Feet Rd,</p>
             <p className="listed  print"><IoIosArrowRoundForward className="text-danger" />Chennai,</p>
             <p className="listed  print"><IoIosArrowRoundForward  className="text-danger"/>Tamil Nadu,</p>
             <p className="listed print "><IoIosArrowRoundForward className="text-danger" />600026,</p></div>
-            <p className="listed  print card-footer"><IoIosArrowRoundForward  className="text-danger"/>8681000087.</p>
+            <p className="listed  print "><IoIosArrowRoundForward  className="text-danger"/>8681000087.</p>
+            <div class="border-container">
+            </div>
             </div>
           </div>
+
+        
+
+          
         </div>
       </div>
       <div className="mt-5 pt-5">
