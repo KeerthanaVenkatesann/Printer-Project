@@ -5,9 +5,11 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@svgdotjs/svg.js": "^3.2.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animejs": "^3.2.2",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "emailjs-com": "^3.2.0",

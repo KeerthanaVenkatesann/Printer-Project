@@ -19,13 +19,17 @@ import Network from "./Component/Network/Network";
 import ProjectInfo from "./Component/Projectinfo/ProjectInfo";
 import Animation from "./Component/Animation/Animation";
 import Clients from "./Component/ClientsLogo/Clients";
+import BallAnimation from "./Component/BallAnimation/BallAnimation";
+
 
 
 function App() {
   return (
     <BrowserRouter>
       <Layout />
+      <BallAnimation />
       <Routes>
+
         <Route path="/header" element={<Header />}></Route>
         <Route path="/footer" element={<Footer />}></Route>
         <Route path="/homepage" element={<HomePage />}></Route>
@@ -44,6 +48,7 @@ function App() {
         <Route path="/proinfo" element={<ProjectInfo />}></Route>
         <Route path="/anime" element={<Animation />}></Route>
         <Route path="/clients" element={<Clients />}></Route>
+       
       </Routes>
     </BrowserRouter>
   );

@@ -18,7 +18,7 @@ export default function GetStarted() {
               <div className="whatsapp-button  d-flex justify-content-center  text-light  align-items-center  ">
                 {/* WhatsApp button implementation can go here */}
                 {/* <Whatsapp /> */}
-               <span className="fs-2"> +91 86810 00087</span>
+               <span className="fs-2 number-font"> +91 - 86810 00087</span>
               </div>
             </div>
           </div>

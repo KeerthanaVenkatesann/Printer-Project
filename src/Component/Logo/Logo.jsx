@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './Logo.css'; // Import your CSS file for styling
 
 export default function Logo() {
   return (
-   <div> <img src='/Assests/Gallery/logo (3).png' width={65} height={85}/></div>
-  )
+    <div className="logo-container">
+      <span className="gradient-text">
+        <span className="green creeper">Allwin</span>
+        <span className="pink creeper ms-2">Digital</span>
+      </span>
+    </div>
+  );
 }

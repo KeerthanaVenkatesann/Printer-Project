@@ -86,26 +86,32 @@ const products = [
   {
     image: "/Assests/Gallery/IMG_20240625_184800.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
+    title: "Backlight"
   },
   {
     image: "/Assests/Gallery/DSC_4816-removebg-preview (1).png",
     whatsappMessage: "Hello, I am interested in this product.",
+      title: "direct Foam"
   },
   {
     image: "/Assests/Gallery/Coffeeco.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
+      title: "Round Lollipop"
   },
   {
     image: "/Assests/Gallery/beauty salon.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
+      title: "Acrylic sticker"
   },
   {
     image: "/Assests/Gallery/bride to be.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
+      title: "Neon"
   },
   {
     image: "/Assests/CarouselImage/image7.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
+      title: "LED standy"
   },
 ];
 
@@ -118,7 +124,7 @@ const ProjectInfo = () => {
         </header>
         <div className="d-flex justify-content-center">
           <div className="w-50 d-flex justify-content-center position-relative mb-5">
-            <img className="img-girl mb-5 mt-4" src="/Assests/Gallery/firstimage-removebg.png" alt="firstimg" />
+            {/* <img className="img-girl mb-5 mt-4" src="/Assests/Gallery/firstimage-removebg.png" alt="firstimg" /> */}
             <CurvedText />
           </div>
           <div className="w-50 mt-2">
@@ -128,6 +134,7 @@ const ProjectInfo = () => {
                   key={index}
                   image={product.image}
                   whatsappMessage={product.whatsappMessage}
+                  title={product.title}
                 />
               ))}
             </div>

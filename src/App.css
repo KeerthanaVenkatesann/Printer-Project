@@ -3,14 +3,13 @@
   font-optical-sizing: auto;
   font-weight: 500 !important;
   font-variation-settings: "wdth" 100;
-  cursor: pointer ;
+  cursor: pointer;
 }
 .footer-list {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300 !important;
   font-variation-settings: "wdth" 100;
-
 }
 .allwin-font {
   font-family: "Saira", sans-serif;
@@ -18,7 +17,28 @@
   font-weight: 200;
   font-variation-settings: "wdth" 100;
 }
-.content-font{
+.allwin-title{
+   font-family: "Arizonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cursive-font {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 1);
+}
+.cursive-font-two {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+.content-font {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -31,16 +51,56 @@
   font-variation-settings: "wdth" 100;
 }
 
-.print{
+.print {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: "wdth" 100;
 }
 
-.allwin-print{
+.allwin-print {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: "wdth" 100;
+}
+
+/* .ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+} */
+
+/* mouse follow kaha write pannathu */
+
+
+.ball {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+.number-font {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.creeper {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }

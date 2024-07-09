@@ -11,9 +11,9 @@ const ProductCard = ({ image, title, whatsappMessage }) => {
       <img src={image} alt={title} className="product-image" />
       
     </div>
-    <div className="product-info">
-        <div className="product-title">{title}</div>
-        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="whatsapp-button-two">
+    <div className="product-info text-center">
+       
+        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="whatsapp-button-two ">
           <FaWhatsapp className="whatsapp-icon fs-4" /> {title}
         </a>
       </div></div></>

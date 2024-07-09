@@ -291,7 +291,7 @@ const Network = () => {
 
   return (
     <>
-      <div className="text-center mb-5 print">
+      <div className="text-center mb-5 mt-5 print">
         <h1 className="header-list">Our Network Growing Day by Day</h1>
         <h3 className="mt-2 text-danger">Hoarding In Tamil Nadu</h3>
         <p>Find hoardings in all these cities</p>

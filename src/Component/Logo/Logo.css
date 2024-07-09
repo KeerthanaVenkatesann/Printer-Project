@@ -1,0 +1,24 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .gradient-text {
+    background: linear-gradient(to right, rgb(104, 182, 182), rgb(183, 56, 151), rgb(180, 180, 95), rgb(255, 254, 254));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  
+  .green {
+    color: rgb(104, 182, 182);
+  }
+  
+  .pink {
+    color: rgb(183, 56, 151);
+  }
+  
