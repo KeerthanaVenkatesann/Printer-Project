@@ -99,3 +99,23 @@
 .offcanvas-body .nav-link {
   margin: 10px 0;
 }
+.custom-close-button{
+  color: white !important;
+  margin-top: 1px !important;
+  margin-left: 7px !important;
+}
+
+.nav-text-canva{
+  color:whitesmoke !important;
+  border-bottom: 1px solid whitesmoke !important;
+  /* width: fit-content !important; */
+}
+@media screen and (max-width:768px) {
+  .navbar-bg.scrolled {
+   
+    height: 100px;
+  }
+  .navbar {
+  
+   --bs-navbar-padding-y: 0 !important;}
+}

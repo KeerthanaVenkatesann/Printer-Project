@@ -20,10 +20,10 @@ const Footer = () => {
     <>
       <footer className="footer-bg text-white pt-5 pb-5 footer-list mt-auto">
         <div className="container  align-items-center">
-          <div className="d-flex mt-4  justify-content-between ">
+          <div className="footer-flex mt-4  justify-content-between ">
             <div className=" text-start">
               <h3 className="header-list">
-                <a href="/gallery">Service</a> <FaLongArrowAltRight />
+                <a href="/gallery">Service</a> 
               </h3>
               <li>
                 <PiPaperPlaneRightDuotone className="mx-2" />
@@ -180,10 +180,10 @@ const Footer = () => {
               </li>
             </div>
 
-            <div className=" text-start">
-              <div className="list-unstyled  ">
-                <h3 className=" header-list ">
-                  Contact Us <FaLongArrowAltRight />
+            <div className=" ">
+              <div className="list-unstyled footer-last-divs text-start ">
+               <div> <h3 className=" header-list mt-sm-5 mt-lg-0 ">
+                  Contact Us 
                 </h3>
                 <div className="d-flex">
                   <li>
@@ -199,7 +199,7 @@ const Footer = () => {
                       href="tel:+918681000087"
                       className="text-white text-decoration-none"
                     >
-                      <FaPhoneAlt className="fs-5 icon-hov " />
+                      <FaPhoneAlt className="fs-5 icon-hov mt-1" />
                     </a>
                   </li>
 
@@ -225,21 +225,22 @@ const Footer = () => {
                       <FaInstagramSquare className="fs-4  icon-hov" />
                     </a>
                   </li>
-                </div>
+                </div></div>
+                <div>
                 <h3 className=" header-list mt-5">
                   Timing
-                  <FaLongArrowAltRight />
+                  
                 </h3>
                 <li>9.00am to 9.00pm</li>
-
+</div>    <div>
                 <h3 className=" header-list mt-5">
                   Location
-                  <FaLongArrowAltRight />
+                  
                 </h3>
                 <li>21 South Sivan Kovil street</li>
                 <li>100 Feet Rd</li>
                 <li> Chennai-600026</li>
-              </div>
+              </div></div>
             </div>
           </div>
         </div>

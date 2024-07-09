@@ -33,7 +33,7 @@ export default function HomePage() {
           <div
           
           >
-            <h1 className="allwin-font fs-1 text-container"   data-aos="zoom-in"
+            <h1 className="allwin-font fs-md-1 fs-sm-4 text-container"   data-aos="zoom-in"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
            >

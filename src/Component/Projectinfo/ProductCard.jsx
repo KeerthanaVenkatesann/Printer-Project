@@ -1,4 +1,27 @@
-// src/Components/ProductCard.jsx
+// // src/Components/ProductCard.jsx
+// import React from 'react';
+// import { FaWhatsapp } from 'react-icons/fa';
+// import './ProductCard.css';
+
+// const ProductCard = ({ image, title, whatsappMessage }) => {
+//   const whatsappLink = `https://wa.me/918681000087?text=${encodeURIComponent(whatsappMessage)}`;
+
+//   return (
+//   <> <div className='d-block'> <div className="product-card">
+//       <img src={image} alt={title} className="product-image" />
+      
+//     </div>
+//     <div className="product-info text-center">
+       
+//         <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="whatsapp-button-two ">
+//           <FaWhatsapp className="whatsapp-icon fs-4" /> {title}
+//         </a>
+//       </div></div></>
+//   );
+// };
+
+// export default ProductCard;
+
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import './ProductCard.css';
@@ -7,16 +30,16 @@ const ProductCard = ({ image, title, whatsappMessage }) => {
   const whatsappLink = `https://wa.me/918681000087?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
-  <> <div className='d-block'> <div className="product-card">
+    <div><div className="product-card">
       <img src={image} alt={title} className="product-image" />
+     
       
-    </div>
-    <div className="product-info text-center">
+    </div> <div className="product-info text-center">
        
-        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="whatsapp-button-two ">
-          <FaWhatsapp className="whatsapp-icon fs-4" /> {title}
-        </a>
-      </div></div></>
+                <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="whatsapp-button-two ">
+                  <FaWhatsapp className="whatsapp-icon fs-4" /> {title}
+                </a>
+              </div></div>
   );
 };
 

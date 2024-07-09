@@ -113,3 +113,12 @@
   }
   
 }
+
+@media screen  and (max-width:768px){
+  .iframe-map {
+    width: 350px;
+    height: 480px;
+   
+  }
+  
+}

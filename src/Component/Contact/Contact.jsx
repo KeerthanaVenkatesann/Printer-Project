@@ -21,7 +21,7 @@ export default function Contact() {
         {/* <h1 className="header-list">Get In Touch With Us</h1> */}
         {/* <div className="print fs-3 ">We're thrilled to begin a new project with you!</div> */}
         <div className="d-flex justify-content-around align-items-center   mx-auto ">
-       <div className="map  col-lg-8">
+       <div className="map col-lg-7 ">
             {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.858015654034!2d80.21097107484266!3d13.04470828727745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267af4ed6df25%3A0xbf06d102c10708f1!2sAllwin%20Digital!5e0!3m2!1sen!2sin!4v1720109529423!5m2!1sen!2sin"
             style={{ border: 0 }}
@@ -40,7 +40,7 @@ export default function Contact() {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="text-start  allwin-name p-4  mt-md-5 col-lg-4  text-content2">
+          <div className="text-start  allwin-name p-4  mt-md-5 col-lg-4 ms-lg-3 text-content2">
             <div className="p-3">
             <h5 className='curse'>Get To Touch</h5>
             <h1 className="content-font  mb-4   ">

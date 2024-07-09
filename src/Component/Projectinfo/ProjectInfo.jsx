@@ -45,7 +45,7 @@
 //             <div className="w-50 d-flex justify-content-center  ">
 // <img className="img-girl mb-5" src="/Assests/Gallery/firstimage-removebg.png" alt="firstimg" />
 //             </div>
-//        <div className="w-50"> <div className="album ">
+//        <div className="w-50"> <div className=" ">
 //           {products.map((product, index) => (
 //             <ProductCard
 //               key={index}
@@ -165,31 +165,29 @@ const products = [
 const ProjectInfo = () => {
   return (
     <>
-      <div className="print">
+       <div className="print">
         <header className="text-center">
           <h1 className="header-list mb-5 fs-1 mt-4">Products and Service</h1>
         </header>
-        <div className="d-flex justify-content-center">
-          <div className=" mt-2">
-            <div className="album">
-              {products.map((product, index) => (
-                <ProductCard
-                  key={index}
-                  image={product.image}
-                  whatsappMessage={product.whatsappMessage}
-                  title={product.title}
-                />
-              ))}
-            </div>
-            <h3 className="my-4 ps-3">
-              <a href="/gallery" className="a1 header-list ms-md-5">
-                Explore Our Gallery <FaLongArrowAltRight />
-              </a>
-            </h3>
+        <div className="d-flex justify-content-center flex-wrap">
+          <div className="product-container">
+            {products.map((product, index) => (
+              <ProductCard
+                key={index}
+                image={product.image}
+                whatsappMessage={product.whatsappMessage}
+                title={product.title}
+              />
+            ))}
           </div>
+          <h3 className="my-4 ps-3">
+            <a href="/gallery" className="a1 header-list ms-lg-5">
+              Explore Our Gallery <FaLongArrowAltRight />
+            </a>
+          </h3>
         </div>
       </div>
-      <CoutClients/>
+      <CoutClients />
       <Clients />
       <Footer />
     </>

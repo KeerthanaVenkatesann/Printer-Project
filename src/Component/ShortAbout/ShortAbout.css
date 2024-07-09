@@ -130,3 +130,10 @@
     width: 300px;
     height: 400px;
 }
+@media screen and (max-width:426px){
+  .short-about-container {
+    display: flex;
+    justify-content: center;
+   flex-direction: column-reverse;
+  }
+}

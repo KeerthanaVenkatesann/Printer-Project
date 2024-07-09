@@ -88,7 +88,7 @@
 // Header.jsx
 
 import React, { useState, useEffect } from "react";
-import { Navbar, Nav, Container, Offcanvas } from "react-bootstrap";
+import { Navbar, Nav, Container, Offcanvas, CloseButton } from "react-bootstrap";
 import "./Header.css";
 import Aos from "aos";
 import HomePage from "../HomePage/HomePage";
@@ -167,21 +167,23 @@ export default function Header() {
       </Navbar>
 
       <Offcanvas show={show} onHide={handleClose} placement="start"  style={{ width: "250px" }} className="bg-black" >
+        
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>  <Logo /></Offcanvas.Title>
+
+          <Offcanvas.Title>  <Logo /></Offcanvas.Title>        <CloseButton variant="white" className="custom-close-button" onClick={handleClose} />
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column">
-            <Nav.Link href="/about" onClick={handleClose} className="header-list text-light">
+            <Nav.Link href="/about" onClick={handleClose} className="allwin-font nav-text-canva">
               About us
             </Nav.Link>
-            <Nav.Link href="/gallery" onClick={handleClose} className="header-list text-light">
+            <Nav.Link href="/gallery" onClick={handleClose} className=" nav-text-canva allwin-font">
               Gallery
             </Nav.Link>
-            <Nav.Link href="/hoarding" onClick={handleClose} className="header-list text-light">
+            <Nav.Link href="/hoarding" onClick={handleClose} className=" nav-text-canva allwin-font">
               Hoarding
             </Nav.Link>
-            <Nav.Link href="/contact" onClick={handleClose} className="header-list text-light">
+            <Nav.Link href="/contact" onClick={handleClose} className=" nav-text-canva allwin-font">
               Contact us
             </Nav.Link>
           </Nav>
