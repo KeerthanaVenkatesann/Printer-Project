@@ -45,12 +45,12 @@ export default function HomePage() {
             <div className="text-center allwin-font mt-3 text-container"   data-aos="fade-up"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine">
-              <button
-                className="btn btn-outline-light get-button me-md-4 fs-3"
+              <h3
+                className="header-list me-md-2 fs-3"
                 onClick={handleSubmit}
               >
                 Get started <HiArrowLongRight />
-              </button>
+              </h3>
               |
               <span
                 className=" header-list text-white  ms-md-2 "

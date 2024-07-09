@@ -25,3 +25,9 @@ a:hover{
     color:rgb(160, 160, 51) ;
     transition: 1s;
 }
+@media screen and (max-width:1024px) {
+    .footer-bg{
+        padding: 0px;
+        font-size: 13px;
+    }
+}

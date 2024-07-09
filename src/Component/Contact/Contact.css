@@ -10,7 +10,7 @@
   .iframe-map {
     width: 800px;
     height: 550px;
-    position: relative;
+  
   }
   
   
@@ -105,3 +105,11 @@
     cursor: pointer;
 }
 
+@media screen  and (max-width:1024px){
+  .iframe-map {
+    width: 600px;
+    height: 450px;
+   
+  }
+  
+}

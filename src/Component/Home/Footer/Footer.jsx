@@ -20,7 +20,7 @@ const Footer = () => {
     <>
       <footer className="footer-bg text-white pt-5 pb-5 footer-list mt-auto">
         <div className="container  align-items-center">
-          <div className="d-flex mt-4  justify-content-around ">
+          <div className="d-flex mt-4  justify-content-between ">
             <div className=" text-start">
               <h3 className="header-list">
                 <a href="/gallery">Service</a> <FaLongArrowAltRight />

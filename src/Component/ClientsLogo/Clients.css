@@ -56,3 +56,8 @@
     width: 300px !important;
     height:40px !important;
 }
+.clients{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

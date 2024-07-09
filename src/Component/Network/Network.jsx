@@ -292,8 +292,8 @@ const Network = () => {
   return (
     <>
       <div className="text-center mb-5 mt-5 print">
-        <h1 className="header-list">Our Network Growing Day by Day</h1>
-        <h3 className="mt-2 text-danger">Hoarding In Tamil Nadu</h3>
+        <h1 className="header-list fs-2">Our Network Growing Day by Day</h1>
+        <h4 className="mt-2 text-danger">Hoarding In Tamil Nadu</h4>
         <p>Find hoardings in all these cities</p>
       </div>
 
@@ -313,7 +313,7 @@ const Network = () => {
       </div>
 
       <div className="text-center mt-5 print w-75 mx-auto rounded p-3">
-        <h1 className="header-list">Hoardings for You</h1>
+        <h1 className="header-list fs-2">Hoardings for You</h1>
         <p className="print w-75 mx-auto mt-2">
           Transform your business with our extensive lineup of marketing essentials and bespoke solutions. From impactful signage and promotional materials to personalized stationery and creative artworks, we offer everything you need to elevate your brand presence. Explore our range of high-quality products including LED signs, promotional tents, laser-cut designs, and more, tailored to enhance visibility and leave a lasting impression.
         </p>

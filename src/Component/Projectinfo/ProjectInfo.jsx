@@ -167,7 +167,7 @@ const ProjectInfo = () => {
     <>
       <div className="print">
         <header className="text-center">
-          <h1 className="header-list mb-5">Products and Service</h1>
+          <h1 className="header-list mb-5 fs-1 mt-4">Products and Service</h1>
         </header>
         <div className="d-flex justify-content-center">
           <div className=" mt-2">

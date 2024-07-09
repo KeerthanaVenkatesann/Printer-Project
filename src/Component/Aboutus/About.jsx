@@ -19,7 +19,7 @@ export default function About() {
       <div className="allwin-print">
         <div className="mx-auto text-center">
           <div>
-            <h1 className="header-list mb-3">About Us</h1>
+            <h1 className="header-list mb-3 fs-2">About Us</h1>
             <p className="fs-3 w-75 mx-auto allwin-font mt-3 mb-3">
               Allwin Digital was inaugurated in 2014 and has since evolved into
               a leading outdoor advertising agency in Chennai. We specialize in
@@ -30,43 +30,43 @@ export default function About() {
           </div>
           <div className="mt-3 mb-3 ">
             <div className="   m-5">
-              <h1 className=" mb-3   header-list">Why Us?</h1>
-              <h4 className="mt-3">
+              <h1 className=" mb-3 fs-2  header-list">Why Us?</h1>
+              <h4 className="mt-3 allwin-font fw-bold">
                 <TiTickOutline className="fs-2 mb-1 mt-1" />
                 15 Years of Experience in Advertising
               </h4>
-              <p className="allwin-font">
+              <p >
                 With over 15 years of expertise, we excel in delivering
                 effective advertising solutions.
               </p>
-              <h4>
+              <h4 className="allwin-font fw-bold">
                 <TiTickOutline className="fs-2 mb-1" />
                 Best Plans for Your Brand and Budget
               </h4>
-              <p className="allwin-font">
+              <p >
                 We offer the best plans tailored to fit your brand's needs and
                 your budget.
               </p>
-              <h4>
+              <h4 className="allwin-font fw-bold">
                 <TiTickOutline className="fs-2 mb-1" />
                 Comprehensive Advertising and Branding Services
               </h4>
-              <p className="allwin-font">
+              <p >
                 We provide all your advertising and branding needs under one
                 roof.
               </p>
-              <h4>
+              <h4 className="allwin-font fw-bold">
                 <TiTickOutline className="fs-2 mb-1" />
                 On-Time Services
               </h4>
-              <p className="allwin-font">
+              <p >
                 We are committed to delivering our services on time, every time.
               </p>
-              <h4>
+              <h4  className="allwin-font fw-bold">
                 <TiTickOutline className="fs-2 mb-1" />
                 Flexible and Client-Centric Approach
               </h4>
-              <p className="allwin-font">
+              <p >
                 We pride ourselves on being flexible and meeting the unique
                 needs of each client.
               </p>
