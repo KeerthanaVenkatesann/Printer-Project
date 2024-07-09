@@ -9,13 +9,15 @@ import { FaLocationCrosshairs } from "react-icons/fa6";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import Clients from "../ClientsLogo/Clients";
+import GetStarted from "../Home/GetStarted/GetStarted";
 
 export default function Contact() {
   return (
     <>
+         <GetStarted />
       <div className="text-center mb-5 ">
-        <h1 className="header-list">Get In Touch With Us</h1>
-        <div className="print">We're thrilled to begin a new project with you!</div>
+        {/* <h1 className="header-list">Get In Touch With Us</h1> */}
+        <div className="print fs-3 text-danger">We're thrilled to begin a new project with you!</div>
         <div className="d-flex justify-content-around align-items-center  mt-5 mx-auto ">
        <div className="map ">
             {/* <iframe
@@ -54,8 +56,8 @@ export default function Contact() {
       </div>
       <div className="mt-5 pt-5">
         <div className="mt-5">
-       <div><FaWhatsapp className="fs-2" /></div>
-       <div><FaWhatsapp className="fs-2" /></div>
+       {/* <div><FaWhatsapp className="fs-2" /></div>
+       <div><FaWhatsapp className="fs-2" /></div> */}
 
         </div>
       </div>

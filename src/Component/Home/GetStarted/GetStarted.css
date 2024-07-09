@@ -10,10 +10,6 @@
 .bg-given {
   background-color: rgb(228, 228, 228) !important;
 }
-.colors-get {
-  color: rgb(182, 182, 64);
-  margin-bottom: -10px;
-}
 
 
 .bg-given {
@@ -35,9 +31,10 @@
   z-index: -1;
 }
 
-.text-col-text{
-  font-size: 18px;
-  animation: colorChange 3s infinite;
+.text-col{
+  margin-bottom: -10px;
+  /* color: rgb(183, 56, 151); */
+  animation: colorChange 3s infinite !important;
 }
 @keyframes colorChange {
   0% {

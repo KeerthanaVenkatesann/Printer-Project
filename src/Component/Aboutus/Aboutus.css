@@ -43,11 +43,11 @@
   z-index: -1;
 }
 
-.text-col-text{
+.text-col{
   font-size: 18px;
-  animation: colorChangeabout 3s infinite !important;
+  animation: colorChange 3s infinite !important;
 }
-@keyframes colorChangabout {
+@keyframes colorChange {
   0% {
     color: rgb(183, 56, 151);
   }

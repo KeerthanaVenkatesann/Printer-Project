@@ -7,6 +7,7 @@ import CoutClients from "../CountClients/CoutClients";
 import Footer from "../Home/Footer/Footer";
 import Clients from "../ClientsLogo/Clients";
 
+
 export default function About() {
   const [triggerCount, setTriggerCount] = useState(false);
 
@@ -16,6 +17,7 @@ export default function About() {
 
   return (
     <>
+
     <div className="allwin-print">
       <div className="mx-auto text-center">
         <div>
@@ -56,13 +58,13 @@ export default function About() {
             {triggerCount && (
               <CountUp start={0} end={15} duration={12} suffix="+" className="stat-number" />
             )}
-            <div className="stat-description text-col-text">Years of Experience</div>
+            <div className="stat-description text-col">Years of Experience</div>
           </div>
           <div className="stat-block">
             {triggerCount && (
               <CountUp start={0} end={1000} duration={10} suffix="+" className="stat-number" />
             )}
-            <div className="stat-description text-col-text">Happy Clients</div>
+            <div className="stat-description text-col">Happy Clients</div>
           </div>
         </div>
       </div>

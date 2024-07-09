@@ -1,6 +1,6 @@
-.carousel-wrapper {
-    text-align: center;
-  }
+.bg-client{
+  background-color: #f9f9f9;
+}
   
   .carousel-wrapper .d-flex {
     display: flex;
@@ -16,43 +16,43 @@
   }
   
   .Image1{
-    width: 750px !important;
-    height:100px !important;
+    width: 300px !important;
+    height:40px !important;
     
   }
   .Image2{
-    width: 360px !important;
-    height:100px !important;
+    width: 150px !important;
+    height:40px !important;
   }
   .Image3{
-    width:100px !important;
-    height:100px !important;
+    width:40px !important;
+    height:40px !important;
   }
   .Image4{
-    width:100px !important;
-    height:100px !important;
+    width:40px !important;
+    height:40px !important;
   }
 .Image5{
-    width:100px !important;
-    height:100px !important;
+    width:40px !important;
+    height:40px !important;
 }
 .Image6{
-    width:100px !important;
-    height:100px !important;
+    width:40px !important;
+    height:40px !important;
 }
 .Image7{
-    width: 260px !important;
-    height: 100px !important;
+    width: 150px !important;
+    height: 40px !important;
 }
 .Image8{
-    width:130px !important;
-    height:100px !important;
+    width:80px !important;
+    height:40px !important;
 }
 .Image9{
-    width: 260px !important;
-    height: 100px !important;
+    width: 100px !important;
+    height: 40px !important;
 }
 .Image10{
-    width: 560px !important;
-    height:100px !important;
+    width: 300px !important;
+    height:40px !important;
 }

@@ -8,7 +8,7 @@ import { FaLongArrowAltRight } from 'react-icons/fa';
 
 export default function CarouselTwo() {
   return (
-    <div className='carousel-wrapper '>
+    <div className=' '>
       <div className='text-center'>
         <h1 className='mx-auto header-list'>Gallery</h1>
         <p className='gallery-description print mx-auto w-50 mt-3'>
@@ -57,7 +57,7 @@ export default function CarouselTwo() {
         </div>
       </Carousel>
 
-     <div className='ps-3'> <h3 className='header-list ms-md-5 mb-5 '><a href="/gallery" className='a1'>Show More <FaLongArrowAltRight /></a></h3></div>
+     <div className='ps-3'> <h3 className='header-list ms-md-5 mb-5  '><a href="/gallery" className='a1 '>Show More <FaLongArrowAltRight /></a></h3></div>
 
     </div>
   );

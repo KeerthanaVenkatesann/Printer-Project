@@ -52,12 +52,12 @@ nav("/proinfo")
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           className="text-container mb-3">
-          <img src="/Assests/Gallery/firstimage-removebg.png" alt="" className="first-image mb-5" />
+          <img src="/Assests/Gallery/firstimage-removebg.png" alt="" className="first-image-girl mb-5" />
         </div>
       </div>
     </div>
-    {/* <ContentBoxOne />
-  */}
+
+ 
     </>
   );
 }

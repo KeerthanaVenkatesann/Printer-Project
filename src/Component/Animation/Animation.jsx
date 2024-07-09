@@ -7,7 +7,7 @@ const Animation = () => {
 
   return (
     <div >
-     <div id="container" className="text-center mb-5 print">
+     <div id="container" className="text-center mb-5  mt-5 print">
    Make
   <div id="flip">
     <div><div>Customize</div></div>
