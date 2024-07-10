@@ -39,6 +39,12 @@ export default function HomePage() {
            >
               Transforming Ideas | Digital Reality
             </h1>
+            <h1 className="allwin-font  text-container ideas-two"   data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+           >
+              Transforming Ideas | Digital Reality
+            </h1>
             <h2 className=" text-center ">
         
             </h2>

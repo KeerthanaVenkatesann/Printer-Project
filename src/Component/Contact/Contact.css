@@ -123,3 +123,10 @@
     flex-direction: column-reverse;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .iframe-map {
+    width: 280px;
+    height: 480px;
+  }
+}
