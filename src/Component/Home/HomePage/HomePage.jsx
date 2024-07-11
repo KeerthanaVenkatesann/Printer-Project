@@ -33,13 +33,13 @@ export default function HomePage() {
           <div
           
           >
-            <h1 className="allwin-font fs-1 text-container ideas"   data-aos="zoom-in"
+            {/* <h1 className="allwin-font fs-1 text-container ideas"   data-aos="zoom-in"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
            >
               Transforming Ideas | Digital Reality
-            </h1>
-            <h1 className="allwin-font  text-container ideas-two"   data-aos="zoom-in"
+            </h1> */}
+            {/* <h1 className="allwin-font  text-container ideas-two"   data-aos="zoom-in"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
            >
@@ -47,8 +47,8 @@ export default function HomePage() {
             </h1>
             <h2 className=" text-center ">
         
-            </h2>
-            <div className="text-center allwin-font mt-3 text-container"   data-aos="fade-up"
+            </h2> */}
+            {/* <div className="text-center allwin-font mt-3 text-container"   data-aos="fade-up"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine">
               <h3
@@ -64,7 +64,7 @@ export default function HomePage() {
               >
                 Learn More
               </span>
-            </div>
+            </div> */}
           </div>
        
         </div>
