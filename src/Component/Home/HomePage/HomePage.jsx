@@ -1,7 +1,60 @@
+// import React, { useEffect } from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import "./HomePage.css"; // Import your component CSS file here
+// import { HiArrowLongRight } from "react-icons/hi2";
+// import Footer from "../Footer/Footer";
+
+// import { useNavigate } from "react-router";
+// import BallAnimation from "../../BallAnimation/BallAnimation";
+// import Logo from "../../Logo/Logo";
+
+// export default function HomePage() {
+//   const nav = useNavigate();
+//   useEffect(() => {
+//     AOS.init({
+//       duration: 1000,
+//       easing: "ease-in-out",
+//       once: true,
+//     });
+//   }, []);
+ 
+//   return (
+//     <>
+//       <div className="homepage-container">
+//         <div className="content-container d-flex justify-content-center">
+//           <div
+//           >
+           
+// <div className="mt-5">
+
+// <div >
+// <img src="/Assests/logo D.jpg" alt="" className="allwins"/>
+//   <img src="/Assests/logo B.jpg" alt="" className="allwins" /> 
+
+// </div>
+//  <div> <img src="/Assests/logo A.jpg" alt=""  className="allwins"/>
+//  <img src="/Assests/logo C.jpg" alt="" className="allwins"/></div>
+
+
+ 
+
+
+// </div>
+
+//           </div>
+       
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
+
+
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./HomePage.css"; // Import your component CSS file here
+import "./HomePage.css"; 
 import { HiArrowLongRight } from "react-icons/hi2";
 import Footer from "../Footer/Footer";
 
@@ -18,57 +71,49 @@ export default function HomePage() {
       once: true,
     });
   }, []);
-  const handleSubmit = () => {
-    nav("/proinfo");
-  };
-
-  const handlesubmitTwo = () => {
-    nav("/about");
-  };
-
+ 
   return (
     <>
       <div className="homepage-container">
         <div className="content-container d-flex justify-content-center">
-          <div
-          
-          >
-            {/* <h1 className="allwin-font fs-1 text-container ideas"   data-aos="zoom-in"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-           >
-              Transforming Ideas | Digital Reality
-            </h1> */}
-            {/* <h1 className="allwin-font  text-container ideas-two"   data-aos="zoom-in"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-           >
-              Transforming Ideas | Digital Reality
-            </h1>
-            <h2 className=" text-center ">
-        
-            </h2> */}
-            {/* <div className="text-center allwin-font mt-3 text-container"   data-aos="fade-up"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
-              <h3
-                className="header-list me-md-2 fs-3"
-                onClick={handleSubmit}
-              >
-                Get started <HiArrowLongRight />
-              </h3>
-              |
-              <span
-                className=" header-list text-white  ms-md-2 "
-                onClick={handlesubmitTwo}
-              >
-                Learn More
-              </span>
-            </div> */}
+          <div>
+            <div className="mt-5">
+              <div>
+                <img
+                  src="/Assests/logo D.jpg"
+                  alt=""
+                  className="allwins"
+                  data-aos="fade-down" 
+                />
+                <img
+                  src="/Assests/logo B.jpg"
+                  alt=""
+                  className="allwins"
+                  data-aos="fade-up" 
+                  data-aos-delay="200" 
+                />
+              </div>
+              <div>
+                <img
+                  src="/Assests/logo A.jpg"
+                  alt=""
+                  className="allwins"
+                  data-aos="fade-up" 
+                  data-aos-delay="400"
+                />
+                <img
+                  src="/Assests/logo C.jpg"
+                  alt=""
+                  className="allwins"
+                  data-aos="zoom-in-left" 
+                  data-aos-delay="600"
+                />
+              </div>
+            </div>
           </div>
-       
         </div>
       </div>
     </>
   );
 }
+

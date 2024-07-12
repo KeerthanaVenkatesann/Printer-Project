@@ -2,10 +2,10 @@
   background: black;
   position: relative;
   overflow: hidden;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-image: url(/public/Assests/bg.jpg);
   background-position: center;
-  background-size: 900px;
+  background-size: 900px; */
 }
 
 .homepage-container::before {
@@ -18,7 +18,9 @@
   background: rgba(0, 0, 0, 0.1); 
   z-index: 1;
 }
-
+.allwins{
+  width: 370px;
+}
 .content-container {
   display: flex;
   justify-content: start;
@@ -44,7 +46,7 @@
   transition: background-color 1s, border-color 1s; 
 }
 .get-button:hover {
-  background: linear-gradient(to top right, rgb(104, 182, 182), rgb(183, 56, 151), rgb(180, 180, 95), rgb(255, 254, 254)) !important;
+  background: linear-gradient(to top right, rgb(104, 182, 182), rgb(232, 71, 71), rgb(180, 180, 95), rgb(255, 254, 254)) !important;
   border-color: rgb(180, 180, 95) !important;
   transition: 1s !important;
 }
@@ -61,5 +63,8 @@
   }
   .ideas{
     display: none;
+  }
+  .allwins{
+    width: 150px;
   }
 }

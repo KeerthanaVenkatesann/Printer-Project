@@ -322,12 +322,12 @@ const Network = () => {
       <div className="hoardings-container bg-transparent print text-white mb-5">
         <h1 className="header-list mb-4 text-white">Find hoardings in All Over Chennai</h1>
         <p className="print w-75 mx-auto mt-2">
-          From Adambakkam to Jafferkhanpet, our hoardings are strategically located in every major area of Chennai.
+          
         </p>
         <div className="locations-grid p-2">
           {locations.map((location, index) => (
             <div key={index} className="location-item text-white">
-              <span className="location-icon"><MdLocationPin className="fs-3" /></span>
+              <span className="location-icon"><MdLocationPin className="fs-3 text-danger" /></span>
               {location}
             </div>
           ))}

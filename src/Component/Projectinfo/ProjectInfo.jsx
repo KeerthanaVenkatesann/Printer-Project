@@ -89,12 +89,33 @@ const products = [
   {
     image: "/Assests/Gallery/41Ug99kWMkL._AC_UF894_1000_QL80__-_Copy-removebg-preview.png",
     whatsappMessage: "Hello, I am interested in this product.",
-      title: "2d Light Board"
+      title: "Acrylic board"
   },
   {
     image: "/Assests/Gallery/0004726_roll-up-banners_540.jpeg-removebg-preview.png",
     whatsappMessage: "Hello, I am interested in this product.",
-      title: "2d Light Board"
+      title: "Roll up standy"
+  },
+
+  {
+    image: "/Assests/Gallery/aj-creations-jhilmil-colony-delhi-identity-card-manufacturers-2vhj2xwpnx-removebg-preview.png",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Id card robe"
+  },
+  {
+    image: "/Assests/Gallery/201809061536299272979-removebg-preview.png",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Outdoor LED TV"
+  },
+  {
+    image: "/Assests/Gallery/idcard-removebg-preview.png",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Id Tag"
+  },
+  {
+    image: "/Assests/Gallery/FLAYER.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+      title: "Visiting card"
   },
 ]
 

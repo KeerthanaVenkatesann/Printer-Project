@@ -36,7 +36,7 @@
 }
 @keyframes colorChange {
   0% {
-    color: rgb(183, 56, 151);
+    color: rgb(232, 71, 71);
   }
   33% {
     color: rgb(104, 182, 182);
@@ -45,7 +45,7 @@
     color: rgb(180, 180, 95);
   }
   100% {
-    color: rgb(183, 56, 151);
+    color: rgb(232, 71, 71);
   }
 }
 @media screen and (max-width: 1024px) {

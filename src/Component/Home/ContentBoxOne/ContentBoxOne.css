@@ -30,7 +30,7 @@ border: 1s solid white !important;
 
 @keyframes colorChangetext {
   0% {
-    color: rgb(183, 56, 151);
+    color: rgb(232, 71, 71);
   }
   33% {
     color:rgb(104, 182, 182);
@@ -39,7 +39,7 @@ border: 1s solid white !important;
     color:rgb(180, 180, 95);
   }
   100% {
-      color: rgb(183, 56, 151);
+      color: rgb(232, 71, 71);
   }
 }
 .card-card{

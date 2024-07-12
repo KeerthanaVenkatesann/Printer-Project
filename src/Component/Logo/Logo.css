@@ -1,4 +1,7 @@
 .logo-container {
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-style: normal;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +9,10 @@
   }
   
   .gradient-text {
-    background: linear-gradient(to right, rgb(104, 182, 182), rgb(183, 56, 151), rgb(180, 180, 95), rgb(255, 254, 254));
+    font-family: "Niconne", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+    background: linear-gradient(to right, rgb(191, 47, 47), rgb(187, 75, 75), rgb(198, 198, 69), rgb(255, 254, 254));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -15,10 +21,10 @@
   }
   
   .green {
-    color: rgb(104, 182, 182);
+    color: rgb(196, 196, 53);
   }
   
   .pink {
-    color: rgb(183, 56, 151);
+    color: rgb(102, 15, 15);
   }
   

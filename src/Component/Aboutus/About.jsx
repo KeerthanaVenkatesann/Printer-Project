@@ -20,7 +20,7 @@ export default function About() {
         <div className="mx-auto text-center">
           <div>
             <h1 className="header-list mb-3 fs-2">About Us</h1>
-            <p className="fs-3 w-75 mx-auto allwin-font mt-3 mb-3">
+            <p className="fs-5 w-75 mx-auto allwin-font mt-3 mb-3">
               Allwin Digital was inaugurated in 2014 and has since evolved into
               a leading outdoor advertising agency in Chennai. We specialize in
               advertising brands across various media platforms, including

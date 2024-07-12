@@ -19,8 +19,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../Home/Header/Header";
 import { Outlet } from "react-router";
-import Footer from "../Home/Footer/Footer";
-import HomePage from "../Home/HomePage/HomePage";
+
 import Loader from "../Loader/Loader";
 
 export default function Layout() {
@@ -41,9 +40,9 @@ export default function Layout() {
   return (
     <div>
       <Header />
-      {/* <HomePage /> */}
+      
       <Outlet />
-      {/* <Footer /> */}
+ 
     </div>
   );
 }

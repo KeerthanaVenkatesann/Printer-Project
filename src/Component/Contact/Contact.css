@@ -53,7 +53,7 @@
 @keyframes bordercolor {
   0% {
     background-image: linear-gradient(white, white),
-      linear-gradient(to right, #000000, rgb(183, 56, 151));
+      linear-gradient(to right, #000000, rgb(232, 71, 71));
     border: 1px solid transparent;
     border-radius: 5px;
     animation: bordercolor 3s infinite;
@@ -86,7 +86,7 @@
   }
   100% {
     background-image: linear-gradient(white, white),
-      linear-gradient(to right, #000000, rgb(183, 56, 151));
+      linear-gradient(to right, #000000, rgb(232, 71, 71));
     border: 1px solid transparent;
     border-radius: 5px;
     animation: bordercolor 3s infinite;

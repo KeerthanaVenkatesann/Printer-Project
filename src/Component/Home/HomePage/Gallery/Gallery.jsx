@@ -167,9 +167,9 @@ export default function Gallery() {
         <h2 className="header-list mx-auto fs-1 mt-md-3">
           Explore Our Gallery
         </h2>
-        <h5 className="print mt-3  ">
+        <h5 className="print mt-3  fs-5 ">
           If You Want to place order
-          <a href="/proinfo" className=" text-primary fs-6 click ">
+          <a href="/proinfo" className=" text-primary fs-6 ms-2 click ">
             Click Here!
           </a>
         </h5>
