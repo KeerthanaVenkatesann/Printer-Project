@@ -2,10 +2,7 @@
   background: black;
   position: relative;
   overflow: hidden;
-  /* background-repeat: no-repeat;
-  background-image: url(/public/Assests/bg.jpg);
-  background-position: center;
-  background-size: 900px; */
+ 
 }
 
 .homepage-container::before {
