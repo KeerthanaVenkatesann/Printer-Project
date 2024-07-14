@@ -13,7 +13,7 @@ import Whatsapp from "./Component/Whatsapp/Whatsapp";
 import Mobile from "./Component/Mobile/Mobile";
 import Header from "./Component/Home/Header/Header";
 import Gallery from "./Component/Home/HomePage/Gallery/Gallery";
-import Carousel from "./Component/Home/HomePage/Carousel/Carousel";
+
 import ContentBoxOne from "./Component/Home/ContentBoxOne/ContentBoxOne";
 import Network from "./Component/Network/Network";
 import ProjectInfo from "./Component/Projectinfo/ProjectInfo";
@@ -42,7 +42,7 @@ function App() {
         <Route path="/loader" element={<Loader />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
     
-        <Route path="/carousel" element={<Carousel />}></Route>
+      
         <Route path="/" element={<ContentBoxOne />}></Route>
         <Route path="/hoarding" element={<Network />}></Route>
         <Route path="/proinfo" element={<ProjectInfo />}></Route>

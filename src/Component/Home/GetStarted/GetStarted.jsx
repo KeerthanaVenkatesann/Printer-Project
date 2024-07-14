@@ -16,15 +16,14 @@ export default function GetStarted() {
                 <h1 className="text-black">Touch With Us</h1>
               </div>
               <div className="whatsapp-button  d-flex justify-content-center  text-black  align-items-center  ">
-                {/* WhatsApp button implementation can go here */}
-              
+                
                  <Whatsapp />
               </div>
             </div>
           
         </div>
       </div>
-      {/* <CarouselTwo /> */}
+
     </>
   );
 }

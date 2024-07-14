@@ -75,8 +75,13 @@
 } */
 
 /* mouse follow kaha write pannathu */
+.allwin-print {
+  overflow-x: hidden; /* Apply overflow hidden to prevent content overflow */
+}
 
-
+body{
+  overflow-x: hidden;
+}
 .ball {
   position: absolute;
   z-index: 1000;

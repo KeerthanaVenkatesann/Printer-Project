@@ -5,15 +5,18 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carous
 import { Carousel } from 'react-responsive-carousel';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { FaLongArrowAltRight } from 'react-icons/fa';
+import { TbWaveSawTool } from 'react-icons/tb';
 
 export default function CarouselTwo() {
   return (
     <div className=' '>
       <div className='text-center'>
         <h1 className='mx-auto header-list'>Gallery</h1>
+        <div><TbWaveSawTool className="text-danger fs-3" /></div>
+
         <p className='gallery-description print mx-auto w-50 mt-3'>
-  Discover our vibrant collection of digital prints, from captivating photos to unique custom cards. 
-  Perfect for personal and professional use, each piece is designed to impress and inspire.
+ <i> Discover our vibrant collection of digital prints, from captivating photos to unique custom cards. 
+  Perfect for personal and professional use, each piece is designed to impress and inspire.</i>
 </p>
       </div>
       <Carousel

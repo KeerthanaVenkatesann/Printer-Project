@@ -6,6 +6,7 @@ import {
   FaInstagramSquare,
   FaLongArrowAltRight,
   FaPhoneAlt,
+  FaPhoneSquareAlt,
 } from "react-icons/fa";
 import { MdEmail, MdOutlineWhatsapp } from "react-icons/md";
 import { PiPaperPlaneRightDuotone } from "react-icons/pi";
@@ -23,7 +24,7 @@ const Footer = () => {
           <div className="footer-flex mt-4  justify-content-between ">
             <div className=" text-start foot">
               <h3 className="header-list">
-                <a href="/gallery">Service</a> 
+                <a href="/gallery">Service</a>  
               </h3>
               <li>
                 <PiPaperPlaneRightDuotone className="mx-2" />
@@ -199,7 +200,7 @@ const Footer = () => {
                       href="tel:+918681000087"
                       className="text-white text-decoration-none"
                     >
-                      <FaPhoneAlt className="fs-5 icon-hov mt-1" />
+                      <FaPhoneSquareAlt className="fs-4 icon-hov " />
                     </a>
                   </li>
 

@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 20px;
+  overflow-x: hidden !important;
 }
 
 .network-card {

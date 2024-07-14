@@ -55,6 +55,16 @@ a:hover{
     .last-div-copywrite{
         font-size: 13px;
     }
+    .footer-flex{
+        display: grid;
+      
+       grid-template-columns: 2fr;
+    }
+    .footer-last-divs{
+        display: grid;
+        gap: 0px;
+        grid-template-columns: 2fr;
+    }
 }
 
 @media screen and (max-width:320px) {
