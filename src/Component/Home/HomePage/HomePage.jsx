@@ -75,7 +75,9 @@ export default function HomePage() {
   return (
     <>
       <div className="homepage-container">
-        <div className="content-container d-flex justify-content-center">
+        <div className="content-container d-flex justify-content-around">
+        <div><img src="/Assests/Gallery/two.png" alt=""   className="allwins2" data-aos="flip-left"
+              data-aos-duration="1500" /></div>
           <div>
             <div className="mt-5">
               <div>
@@ -111,6 +113,10 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+        
+
+          <div><img src="/Assests/Gallery/one.png"  data-aos="fade-left"
+              data-aos-duration="1500"   className="allwins3" alt="" /></div>
         </div>
       </div>
     </>

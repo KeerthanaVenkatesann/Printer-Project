@@ -18,6 +18,14 @@
 .allwins{
   width: 370px;
 }
+.allwins2{
+  
+  width: 180px;
+}
+.allwins3{
+  
+  width: 230px;
+}
 .content-container {
   display: flex;
   justify-content: start;
@@ -51,7 +59,34 @@
   display: none;
 }
 
+@media screen and (max-width:1025px) {
+  .allwins{
+    width: 270px;
+  }
+  .allwins2{
+    
+    width: 120px;
+  }
+  .allwins3{
+    
+    width: 150px;
+  }
+}
 
+
+@media screen  and (max-width:768px) {
+  .allwins{
+    width: 230px;
+  }
+  .allwins2{
+    
+    width: 100px;
+  }
+  .allwins3{
+    
+    width: 130px;
+  }
+}
 
 @media screen and (max-width:426px) {
   .ideas-two{
@@ -61,7 +96,42 @@
   .ideas{
     display: none;
   }
+   .allwins{
+    width: 130px;
+  }
+  .allwins2{
+    
+    width: 70px;
+  }
+  .allwins3{
+    
+    width: 80px;
+  }
+}
+
+@media screen and (max-width:376px) {
   .allwins{
-    width: 150px;
+    width: 120px;
+  }
+  .allwins2{
+    
+    width: 60px;
+  }
+  .allwins3{
+    
+    width: 70px;
+  }
+}
+@media screen and (max-width:321px) {
+  .allwins{
+    width: 100px;
+  }
+  .allwins2{
+    
+    width: 50px;
+  }
+  .allwins3{
+    
+    width: 60px;
   }
 }

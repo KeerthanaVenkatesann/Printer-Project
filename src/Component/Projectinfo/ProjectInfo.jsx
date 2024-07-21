@@ -164,7 +164,7 @@ import Clients from "../ClientsLogo/Clients";
 import "./Curved.css";
 import "./ProductCard.css";
 import { TbWaveSawTool } from "react-icons/tb";
-import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
+
 
 const products = [
   {
@@ -183,12 +183,12 @@ const products = [
     title: "Round Lollipop"
   },
   {
-    image: "/Assests/Gallery/beauty salon.jpg",
+    image: "/Assests/Gallery/beautysalon.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Acrylic sticker"
   },
   {
-    image: "/Assests/Gallery/bride to be.jpg",
+    image: "/Assests/Gallery/neon.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Neon"
   },
@@ -208,7 +208,7 @@ const products = [
     title: "neon board"
   },
   {
-    image: "/Assests/Gallery/mrg.jpg",
+    image: "/Assests/Gallery/madrasss1.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Backlight Board"
   },
@@ -233,7 +233,7 @@ const products = [
     title: "Foam"
   },
   {
-    image: "/Assests/Gallery/LETTER HEAD.jpg",
+    image: "/Assests/Gallery/letterhead.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Letter Head"
   },
@@ -243,12 +243,12 @@ const products = [
     title: "2d Light Board"
   },
   {
-    image: "/Assests/Gallery/41Ug99kWMkL._AC_UF894_1000_QL80__-_Copy-removebg-preview.png",
+    image: "/Assests/Gallery/accrylic board.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Acrylic board"
   },
   {
-    image: "/Assests/Gallery/0004726_roll-up-banners_540.jpeg-removebg-preview.png",
+    image: "/Assests/Gallery/rollupstandy.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Roll up standy"
   },
@@ -258,7 +258,7 @@ const products = [
     title: "Id card robe"
   },
   {
-    image: "/Assests/Gallery/201809061536299272979-removebg-preview.png",
+    image: "/Assests/Gallery/outdoor led tv.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Outdoor LED TV"
   },
@@ -273,7 +273,7 @@ const products = [
     title: "Visiting card"
   },
   {
-    image: "/Assests/Gallery/Untitled design_20240615_185024_0000.png",
+    image: "/Assests/Gallery/relax.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Broucher"
   },
@@ -283,30 +283,42 @@ const products = [
     title: "Stamb"
   },
   {
-    image: "/Assests/Gallery/shape_cutting-removebg-preview.png",
+    image: "/Assests/Gallery/diecut.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Die cut"
   },
   {
     image: "/Assests/Gallery/recep book.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
-    title: "Bull book"
+    title: "Bill book"
   },
   {
-    image: "/Assests/Gallery/menu card.jpg",
+    image: "/Assests/Gallery/menucrd.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: " Menu card"
   },
   {
-    image: "/Assests/Gallery/IMG-20230323-WA0011.jpg",
+    image: "/Assests/Gallery/umbrella.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
-    title: " Menu card",
+    title: "Beach Umbrella",
 
   },
   {
-    image: "/Assests/2 x 2.jpg",
+    image: "/Assests/Gallery/movieposter.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+    title: " Movie Poster",
+
+  },
+  {
+    image: "/Assests/Gallery/Sunpack2.jpg",
     whatsappMessage: "Hello, I am interested in this product.",
     title: "Sunpack",
+
+  },
+  {
+    image: "/Assests/Gallery/Visiting Card.jpg",
+    whatsappMessage: "Hello, I am interested in this product.",
+    title: "Visiting Card",
 
   },
   

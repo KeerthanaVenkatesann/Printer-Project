@@ -11,9 +11,19 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.footer-convey{
+  background-color: black;
+}
+.footer-last-divs{
+ 
+    color: white;
+}
+footer li{
+    margin: 5px;
+}
 li{
   list-style-type: none;
-  margin: 5px;
+
 }
 a{
     text-decoration: none !important;
@@ -35,8 +45,19 @@ a:hover{
         padding: 0px;
         font-size: 13px;
     }
+    .footer-last-divs{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      gap: 20px;
+      margin-top: 20px;
+  }
 
-
+}
+@media screen  and (min-width:1025px) {
+  .footer-last-divs{
+    margin: 0px !important;
+  }
 }
 @media screen and (max-width:768px) {
   
@@ -49,9 +70,7 @@ a:hover{
 
 }
 @media screen and (max-width:426px){
-    .contact-karo{
-        margin-top: 50px;
-    }
+  
     .last-div-copywrite{
         font-size: 13px;
     }
@@ -81,4 +100,40 @@ a:hover{
 }
 
 
+.icon-hov {
 
+    transition: all 0.3s ease;
+  }
+  
+  .icon-hov:hover {
+    transform: rotate(360deg);
+  }
+
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .icon-hov:hover .fa-phone-square-alt {
+    animation: rotate 1s linear;
+  }
+  
+  .icon-hov:hover .fa-instagram-square {
+    animation: rotate 1s linear;
+  }
+  
+  .icon-hov:hover .md-outline-whatsapp {
+    animation: rotate 1s linear;
+  }
+  
+  .icon-hov:hover .md-email {
+    animation: rotate 1s linear;
+  }  
+
+ 
+  

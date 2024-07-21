@@ -2,15 +2,9 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./Footer.css";
-import {
-  FaInstagramSquare,
-  FaLongArrowAltRight,
-  FaPhoneAlt,
-  FaPhoneSquareAlt,
-} from "react-icons/fa";
+import { FaInstagramSquare, FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail, MdOutlineWhatsapp } from "react-icons/md";
 import { PiPaperPlaneRightDuotone } from "react-icons/pi";
-import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   const phoneNumber = "918681000087";
@@ -21,11 +15,11 @@ const Footer = () => {
     <>
       <footer className="footer-bg text-white pt-5 pb-5 footer-list mt-auto">
         <div className="container  align-items-center">
-          <div className="footer-flex mt-4  justify-content-between ">
+          <h3 className="header-list">
+            <a href="/gallery">Service</a>
+          </h3>
+          <div className="footer-flex mt-2 justify-content-between ">
             <div className=" text-start foot">
-              <h3 className="header-list">
-                <a href="/gallery">Service</a>  
-              </h3>
               <li>
                 <PiPaperPlaneRightDuotone className="mx-2" />
                 LED Sign Boards
@@ -47,6 +41,14 @@ const Footer = () => {
                 Wooden Signage
               </li>
               <li>
+                {" "}
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Backlight Board
+              </li>
+            </div>
+
+            <div className=" text-start foot">
+              <li>
                 <PiPaperPlaneRightDuotone className="mx-2" />
                 Unipole Hoarding
               </li>
@@ -62,9 +64,18 @@ const Footer = () => {
                 <PiPaperPlaneRightDuotone className="mx-2" />
                 Id card pvc
               </li>
+
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Art paper
+              </li>
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Invitation+ cover
+              </li>
             </div>
+
             <div className=" text-start">
-              <li className="text-black mt-3">Service</li>
               <li>
                 <PiPaperPlaneRightDuotone className="mx-2" />
                 ACP Glazing
@@ -87,6 +98,12 @@ const Footer = () => {
               </li>
               <li>
                 <PiPaperPlaneRightDuotone className="mx-2" />
+                Bill Book
+              </li>
+            </div>
+            <div className=" text-start">
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
                 Promotional Tent
               </li>
               <li>
@@ -101,79 +118,9 @@ const Footer = () => {
                 <PiPaperPlaneRightDuotone className="mx-2" />
                 Gift Vouchers
               </li>
-            </div>
-            <div className=" text-start">
-              <li className="text-black mt-3">Service</li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Promotional Arch
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Roll Up Banner Stand
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Clip On Board
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Acrylic 2 board
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Flex Board
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Backlight Board
-              </li>
               <li>
                 <PiPaperPlaneRightDuotone className="mx-2" />
                 Pencil art
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Bamblet
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Art paper
-              </li>
-            </div>
-            <div className=" text-start">
-              <li className="text-black mt-3">Service</li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Promotional Arch
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Roll Up Banner Stand
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Clip On Board
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Acrylic 2 board
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Flex Board
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Backlight Board
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Invitation+ cover
-              </li>
-              <li>
-                <PiPaperPlaneRightDuotone className="mx-2" />
-                Bill Book
               </li>
               <li>
                 <PiPaperPlaneRightDuotone className="mx-2" />
@@ -181,18 +128,47 @@ const Footer = () => {
               </li>
             </div>
 
-            <div className=" ">
-              <div className="list-unstyled footer-last-divs text-start ">
-               <div> <h3 className=" header-list mt-sm-5 mt-lg-0 contact-karo ">
-                  Contact Us 
+            <div className=" text-start">
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Promotional Arch
+              </li>
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Roll Up Banner Stand
+              </li>
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Clip On Board
+              </li>
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Acrylic 2 board
+              </li>
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Flex Board
+              </li>
+              <li>
+                <PiPaperPlaneRightDuotone className="mx-2" />
+                Bamblet
+              </li>
+            </div>
+        
+       
+            <div className="list-unstyled footer-last-divs text-start mt-5    ">
+              <div className="">
+                {" "}
+                <h3 className=" header-list contact-karo fs-4">
+                  Contact Us
                 </h3>
-                <div className="d-flex">
+                <span className="d-flex">
                   <li>
                     <a
                       href="mailto:allwin@yourwebsite.com"
                       className="text-white"
                     >
-                      <MdEmail className="fs-3 icon-hov" />
+                      <MdEmail className="fs-4 icon-hov" />
                     </a>
                   </li>
                   <li>
@@ -213,7 +189,7 @@ const Footer = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <MdOutlineWhatsapp className="fs-3  icon-hov " />
+                      <MdOutlineWhatsapp className="fs-4  icon-hov " />
                     </a>
                   </li>
                   <li>
@@ -226,26 +202,24 @@ const Footer = () => {
                       <FaInstagramSquare className="fs-4  icon-hov" />
                     </a>
                   </li>
-                </div></div>
-                <div>
-                <h3 className=" header-list mt-5">
-                  Timing
-                  
-                </h3>
+                </span>
+              </div>
+              <div className="pt-lg-3">
+                <h3 className=" header-list fs-4 ">Timing</h3>
                 <li>9.00am to 9.00pm</li>
-</div>    <div>
-                <h3 className=" header-list mt-5">
-                  Location
-                  
-                </h3>
-                <li>21 South Sivan Kovil street</li>
-                <li>100 Feet Rd</li>
-                <li> Chennai-600026</li>
-              </div></div>
+              </div>
+              <div className=" pt-md-3">
+                <h3 className=" header-list fs-4">Location</h3>
+                <li>21 South Sivan Kovil street,</li>
+                <li>Near sri sticker Vadapalni,</li>
+                <li>100 Feet Rd,</li>
+                <li> Chennai-600026.</li>
+              </div>  </div>
             </div>
           </div>
-        </div>
+      
       </footer>
+
       <div className="last-div-copywrite p-2 print shadow-sm">
         <div className="text-light text-center ">
           © 2024 Allwin Digital – All Rights Reserved.
