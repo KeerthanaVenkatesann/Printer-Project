@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import "./Gallery.css";
 import Footer from "../../Footer/Footer";
@@ -24,8 +23,9 @@ export default function Gallery() {
             Click Here!
           </a>
         </h5>
-        <div><TbWaveSawTool className="text-danger fs-3" /></div>
-
+        <div>
+          <TbWaveSawTool className="text-danger fs-3" />
+        </div>
       </div>
       <div className="d-flex justify-content-center mt-md-5">
         <div>
@@ -42,20 +42,25 @@ export default function Gallery() {
                   />
                 </div>
                 <div className="network-card-two rounded">
+                  <img className="img" src="/Assests/Gallery/3X3 FOAM.jpg" />
+                </div>
+                <div className="network-card-two rounded">
+                  <img
+                    className="img"
+                    src="/Assests/Gallery/Visiting Card.jpg"
+                  />
+                </div>
+
+                <div className="network-card-two rounded">
+                  <img className="img" src="/Assests/Gallery/umbrella.jpg" />
+                </div>
+                <div className="network-card-two rounded">
                   <img
                     className="img"
                     src="/Assests/Gallery/IMG_20240625_184800.jpg"
                   />
                 </div>
-                <div className="network-card-two rounded">
-                  <img
-                    className="img"
-                    src="/Assests/Gallery/IMG-20230323-WA0011.jpg"
-                  />
-                </div>
-                <div className="network-card-two rounded">
-                  <img className="img" src="/Assests/Gallery/3X3 FOAM.jpg" />
-                </div>
+               
                 <div className="network-card-two rounded">
                   <img className="img" src="/Assests/Gallery/bhat villa.jpg" />
                 </div>

@@ -96,30 +96,30 @@
   .ideas{
     display: none;
   }
-   .allwins{
-    width: 130px;
+  .allwins{
+    width: 100px;
   }
   .allwins2{
     
-    width: 70px;
+    width: 50px;
   }
   .allwins3{
     
-    width: 80px;
+    width: 60px;
   }
 }
 
 @media screen and (max-width:376px) {
   .allwins{
-    width: 120px;
+    width: 100px;
   }
   .allwins2{
     
-    width: 60px;
+    width: 50px;
   }
   .allwins3{
     
-    width: 70px;
+    width: 60px;
   }
 }
 @media screen and (max-width:321px) {

@@ -33,7 +33,7 @@ import AOS from 'aos';
 
 export default function Clients() {
   useEffect(() => {
-    AOS.init({ duration: 200 });
+    AOS.init();
   }, []);
 
   return (
