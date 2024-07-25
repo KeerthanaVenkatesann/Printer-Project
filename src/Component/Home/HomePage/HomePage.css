@@ -2,7 +2,6 @@
   background: black;
   position: relative;
   overflow: hidden;
- 
 }
 
 .homepage-container::before {
@@ -12,18 +11,16 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.1); 
+  background: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
-.allwins{
+.allwins {
   width: 370px;
 }
-.allwins2{
-  
+.allwins2 {
   width: 180px;
 }
-.allwins3{
-  
+.allwins3 {
   width: 230px;
 }
 .content-container {
@@ -38,7 +35,6 @@
 
 .text-container {
   color: white;
-
 }
 
 .company-name {
@@ -48,90 +44,311 @@
 
 .get-button {
   border: 2px solid;
-  transition: background-color 1s, border-color 1s; 
+  transition: background-color 1s, border-color 1s;
 }
 .get-button:hover {
-  background: linear-gradient(to top right, rgb(104, 182, 182), rgb(232, 71, 71), rgb(180, 180, 95), rgb(255, 254, 254)) !important;
+  background: linear-gradient(
+    to top right,
+    rgb(104, 182, 182),
+    rgb(232, 71, 71),
+    rgb(180, 180, 95),
+    rgb(255, 254, 254)
+  ) !important;
   border-color: rgb(180, 180, 95) !important;
   transition: 1s !important;
 }
-.ideas-two{
+.ideas-two {
   display: none;
 }
 
-@media screen and (max-width:1025px) {
-  .allwins{
+@media screen and (max-width: 1025px) {
+  .allwins {
     width: 270px;
   }
-  .allwins2{
-    
+  .allwins2 {
     width: 120px;
   }
-  .allwins3{
-    
+  .allwins3 {
     width: 150px;
   }
 }
 
-
-@media screen  and (max-width:768px) {
-  .allwins{
+@media screen and (max-width: 768px) {
+  .allwins {
     width: 230px;
   }
-  .allwins2{
-    
+  .allwins2 {
     width: 100px;
   }
-  .allwins3{
-    
+  .allwins3 {
     width: 130px;
   }
 }
-
-@media screen and (max-width:426px) {
-  .ideas-two{
+.flicker{
+ 
+    color: white;
+    text-shadow: 2px 2px 4px rgb(232, 226, 226); 
+ 
+}
+@media screen and (min-width: 426px) {
+  .flicker {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .ideas-two {
     display: block;
     font-size: 20px !important;
   }
-  .ideas{
+  .ideas {
     display: none;
   }
-  .allwins{
+  .allwins {
     width: 100px;
   }
-  .allwins2{
-    
+  .allwins2 {
     width: 50px;
   }
-  .allwins3{
-    
+  .allwins3 {
+    width: 60px;
+  }
+  .content-container {
+    height: 37vh;
+  }
+  .images-top {
+    position: relative;
+    top: 37px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .allwins {
+    width: 100px;
+  }
+  .allwins2 {
+    width: 50px;
+  }
+  .allwins3 {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .allwins {
+    width: 100px;
+  }
+  .allwins2 {
+    width: 50px;
+  }
+  .allwins3 {
     width: 60px;
   }
 }
 
-@media screen and (max-width:376px) {
-  .allwins{
-    width: 100px;
+.branches {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* 
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+.sign {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #6b1839,
+    transparent
+  );
+  transform: translate(-50%, -50%);
+  letter-spacing: 2;
+  left: 50%;
+  top: 50%;
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 6em;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #fcf9fc, 0 0 1.5rem #aa1d1d,
+    -0.2rem 0.1rem 1rem #aa1d1d, 0.2rem 0.1rem 1rem #aa1d1d,
+    0 -0.5rem 2rem #aa1d1d, 0 0.5rem 3rem #aa1d1d;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #aa1d1d,
+      -0.2rem 0.1rem 1rem #aa1d1d, 0.2rem 0.1rem 1rem #aa1d1d,
+      0 -0.5rem 2rem #aa1d1d, 0 0.5rem 3rem #aa1d1d;
   }
-  .allwins2{
-    
-    width: 50px;
+  28%,
+  33% {
+    color: #aa1d1d;
+    text-shadow: none;
   }
-  .allwins3{
-    
-    width: 60px;
+  82%,
+  97% {
+    color: #aa1d1d;
+    text-shadow: none;
   }
 }
-@media screen and (max-width:321px) {
-  .allwins{
-    width: 100px;
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
   }
-  .allwins2{
-    
-    width: 50px;
-  }
-  .allwins3{
-    
-    width: 60px;
+  100% {
+    color: #f4f497;
+    text-shadow: 0 0 0.6rem #eded8e, 0 0 1.5rem #aa1d1d,
+      -0.2rem 0.1rem 1rem #aa1d1d, 0.2rem 0.1rem 1rem #aa1d1d,
+      0 -0.5rem 2rem #aa1d1d, 0 0.5rem 3rem #aa1d1d;
   }
 }
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+} */

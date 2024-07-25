@@ -1,62 +1,113 @@
-.bg-client{
+.bg-client {
   background-color: #f9f9f9;
 }
-  
-  .carousel-wrapper .d-flex {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .carousel-wrapper img {
-    
-    object-fit: cover;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .Image1{
-    width: 300px !important;
-    height:40px !important;
-    
-  }
-  .Image2{
-    width: 150px !important;
-    height:40px !important;
-  }
-  .Image3{
-    width:40px !important;
-    height:40px !important;
-  }
-  .Image4{
-    width:40px !important;
-    height:40px !important;
-  }
-.Image5{
-    width:40px !important;
-    height:40px !important;
+
+.carousel-wrapper .d-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.Image6{
-    width:40px !important;
-    height:40px !important;
+
+.carousel-wrapper img {
+  object-fit: cover;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.Image7{
-    width: 150px !important;
-    height: 40px !important;
+
+.Image1 {
+  width: 300px !important;
+  height: 40px !important;
 }
-.Image8{
-    width:80px !important;
-    height:40px !important;
+.Image2 {
+  width: 150px !important;
+  height: 40px !important;
 }
-.Image9{
-    width: 100px !important;
-    height: 40px !important;
+.Image3 {
+  width: 40px !important;
+  height: 40px !important;
 }
-.Image10{
-    width: 300px !important;
-    height:40px !important;
+.Image4 {
+  width: 40px !important;
+  height: 40px !important;
 }
-.clients{
+.Image5 {
+  width: 40px !important;
+  height: 40px !important;
+}
+.Image6 {
+  width: 40px !important;
+  height: 40px !important;
+}
+.Image7 {
+  width: 150px !important;
+  height: 40px !important;
+}
+.Image8 {
+  width: 80px !important;
+  height: 40px !important;
+}
+.Image9 {
+  width: 100px !important;
+  height: 40px !important;
+}
+.Image10 {
+  width: 300px !important;
+  height: 40px !important;
+}
+
+.Image11 {
+  width: 70px !important;
+  height: 40px !important;
+}
+.Image12 {
+  width: 60px !important;
+  height: 40px !important;
+}
+.Image13 {
+  width: 70px !important;
+  height: 40px !important;
+}
+.Image14 {
+  width: 150px !important;
+  height: 40px !important;
+}
+.Image15 {
+  width: 40px !important;
+  height: 40px !important;
+}
+.Image16 {
+  width: 60px !important;
+  height: 40px !important;
+}
+.Image17 {
+  width: 190px !important;
+  height: 40px !important;
+}
+.Image18 {
+  width: 90px !important;
+  height: 40px !important;
+}
+.Image19 {
+  width: 180px !important;
+  height: 40px !important;
+}
+.Image20 {
+  width: 80px !important;
+  height: 40px !important;
+}
+.Image21 {
+  width: 250px !important;
+  height: 40px !important;
+}
+.Image22 {
+  width: 180px !important;
+  height: 40px !important;
+}
+.Image23 {
+  width: 150px !important;
+  height: 40px !important;
+}
+.clients {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

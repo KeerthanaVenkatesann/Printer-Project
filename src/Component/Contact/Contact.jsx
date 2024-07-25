@@ -151,7 +151,7 @@ export default function Contact() {
               </div>
               <p className="listed print">
                 <IoIosArrowRoundForward className="text-danger" />
-                8681000087.
+                8681000086/87.
               </p>
               <div className="border-container"></div>
             </div>
