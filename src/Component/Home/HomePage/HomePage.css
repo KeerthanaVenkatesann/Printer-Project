@@ -84,12 +84,7 @@
     width: 130px;
   }
 }
-.flicker{
- 
-    color: white;
-    text-shadow: 2px 2px 4px rgb(232, 226, 226); 
- 
-}
+
 @media screen and (min-width: 426px) {
   .flicker {
     font-size: 30px;

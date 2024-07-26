@@ -153,7 +153,7 @@ export default function HomePage() {
             <li>
               <span class="flicker">G</span>
               <span class="flicker">uduvan</span>
-              <span class="flicker">C</span>
+              <span class="flicker">c</span>
               <span class="flicker">hery</span>
             </li>
           </div>
