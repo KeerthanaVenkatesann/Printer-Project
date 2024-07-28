@@ -1,6 +1,7 @@
 import React from "react";
 import "./Whatsapp.css";
 import { PiWhatsappLogoDuotone } from "react-icons/pi";
+import { SiMaildotru } from "react-icons/si";
 
 export default function Whatsapp() {
   const handleWhatsAppRedirect = (phoneNumber) => {
@@ -28,8 +29,8 @@ export default function Whatsapp() {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title header-list" id="whatsappModalLabel">
-                Choose Our Branches
+              <h5 className="modal-title header-list text-danger" id="whatsappModalLabel">
+               Contact Us
               </h5>
               <button
                 type="button"
@@ -41,42 +42,51 @@ export default function Whatsapp() {
               </button>
             </div>
             <div className="modal-body">
-            <div className="d-flex">  <div className="mb-3 me-auto">
-                <h5>Vadapalani</h5>
-                <button
-                  className="btn btn-outline-danger"
-                  onClick={() => handleWhatsAppRedirect("8681000087")}
-                >
-                  Message <PiWhatsappLogoDuotone />
-                </button>
-              </div>
-              <div>
-                <h5>Ashok Nagar</h5>
+            <h5 className="modal-title modal-header  mb-4" id="whatsappModalLabel">
+                Choose Our Branches:(Ashok Nagar)
+              </h5>
+            <div className="d-flex">  
+           
+              <div className=" me-5">
+                <h6 className="mb-3"><SiMaildotru className="text-danger" /> Allwin Digital</h6>
                 <button
                   className="btn btn-outline-danger"
                   onClick={() => handleWhatsAppRedirect("8681000086")}
                 >
-                  Message <PiWhatsappLogoDuotone />
-                </button>
-              </div></div>
-              <div className="d-flex"><div className="mb-3 me-auto ">
-                <h5>Vadapalani</h5>
-                <button
-                  className="btn btn-outline-danger"
-                  onClick={() => handleWhatsAppRedirect("8681000087")}
-                >
-                  Message <PiWhatsappLogoDuotone />
+                Sathish <PiWhatsappLogoDuotone />
                 </button>
               </div>
               <div>
-                <h5>Ashok Nagar</h5>
+                <h6 className="mb-3"><SiMaildotru className="text-danger" /> Allwin Prints</h6>
                 <button
                   className="btn btn-outline-danger"
-                  onClick={() => handleWhatsAppRedirect("8681000086")}
+                  onClick={() => handleWhatsAppRedirect("8681000098")}
                 >
-                  Message <PiWhatsappLogoDuotone />
+                  Vivek <PiWhatsappLogoDuotone />
                 </button>
               </div></div>
+              <h1 className="modal-header"></h1>
+              <h5 className="modal-title modal-header mb-4" id="whatsappModalLabel">
+                Choose Our Branches:
+              </h5>
+              <div className="d-flex ">
+            
+                <div className="  ">
+                <h6 className="mb-3"><SiMaildotru className="text-danger" /> Allwin Digital-100 Feet Road(Vadapalani)</h6>
+             <div className="w-100"> <button
+                  className="btn btn-outline-danger me-5 "
+                  onClick={() => handleWhatsAppRedirect("8681000087")}
+                >
+                Naveen <PiWhatsappLogoDuotone />
+                </button>
+                <button
+                  className="btn btn-outline-danger "
+                  onClick={() => handleWhatsAppRedirect("8681000097")}
+                >
+                 Anbu <PiWhatsappLogoDuotone />
+                </button></div>  
+              </div>
+             </div>
             </div>
             <div className="modal-footer">
               <button
