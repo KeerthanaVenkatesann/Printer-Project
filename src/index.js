@@ -5,6 +5,9 @@ import App from "./App";
 import 'animate.css';
 import reportWebVitals from "./reportWebVitals";
 // import BallAnimation from "./Component/BallAnimation/BallAnimation";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
