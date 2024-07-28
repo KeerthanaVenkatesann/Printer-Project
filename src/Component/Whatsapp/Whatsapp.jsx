@@ -53,7 +53,7 @@ export default function Whatsapp() {
                   className="btn btn-outline-danger"
                   onClick={() => handleWhatsAppRedirect("8681000086")}
                 >
-                Sathish <PiWhatsappLogoDuotone />
+                Sathish <PiWhatsappLogoDuotone className="text-success"/>
                 </button>
               </div>
               <div>
@@ -62,7 +62,7 @@ export default function Whatsapp() {
                   className="btn btn-outline-danger"
                   onClick={() => handleWhatsAppRedirect("8681000098")}
                 >
-                  Vivek <PiWhatsappLogoDuotone />
+                  Vivek <PiWhatsappLogoDuotone className="text-success"/>
                 </button>
               </div></div>
               <h1 className="modal-header"></h1>
@@ -77,13 +77,13 @@ export default function Whatsapp() {
                   className="btn btn-outline-danger me-5 "
                   onClick={() => handleWhatsAppRedirect("8681000087")}
                 >
-                Naveen <PiWhatsappLogoDuotone />
+                Naveen <PiWhatsappLogoDuotone className="text-success"/>
                 </button>
                 <button
                   className="btn btn-outline-danger "
                   onClick={() => handleWhatsAppRedirect("8681000097")}
                 >
-                 Anbu <PiWhatsappLogoDuotone />
+                 Anbu <PiWhatsappLogoDuotone className="text-success"/>
                 </button></div>  
               </div>
              </div>
