@@ -1,5 +1,8 @@
 {
   "projects": {
     "default": "allwindigital-vadapalani"
-  }
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

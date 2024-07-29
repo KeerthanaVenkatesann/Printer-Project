@@ -126,7 +126,10 @@ export default function Contact() {
               <h1 className="content-font mb-4">
                 Contact Us If You Have More Questions.
               </h1>
-              <h2 className="cursive-font-two">Allwin Digital</h2>
+              <div> <span className="gradient-text fs-1">
+        <span className="green creeper">Allwin</span>
+        <span className="pink creeper ms-2">Digital</span>
+      </span></div> 
               <div className="card-body">
                 <p className="listed print">
                   <IoIosArrowRoundForward className="text-danger" /> 21 South

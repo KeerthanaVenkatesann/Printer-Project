@@ -9,10 +9,10 @@ export default function GetStarted() {
     <>
       <div className="top-container w-100 p-5">
         <div className=" d-flex justify-content-center   align-items-center   content-font ">
-          <div className="w-75  bg-given rounded p-3 d-flex justify-content-around ">
+          <div className="w-75  rounded p-3 d-flex justify-content-around ">
            
               <div className="text-start get-in-start ">
-                <h4 className=" text-col ">Get In</h4>
+                <h4 className=" text-col mb-1">Get In</h4>
                 <h1 className="text-black">Touch With Us</h1>
               </div>
               <div className="whatsapp-button  d-flex justify-content-center  text-black  align-items-center  ">

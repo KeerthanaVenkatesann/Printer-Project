@@ -27,7 +27,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  height: 60vh;
+  height: 57vh;
 
   position: relative;
   z-index: 1;
@@ -61,6 +61,14 @@
   display: none;
 }
 
+/* .color-strike{
+  height: 405px;
+}
+.first-image-girl{
+  height: 360px;
+  margin-top: 60px;
+  width: 200px;
+} */
 @media screen and (max-width: 1025px) {
   .allwins {
     width: 270px;
@@ -142,6 +150,9 @@
 .branches {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+.low-opacity {
+  opacity: 0.6 !important; 
 }
 /* 
 @font-face {

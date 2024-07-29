@@ -137,3 +137,14 @@ a:hover{
 
  
   
+
+
+  .footer-list {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .footer-list:hover {
+    transform: translateX(8px);
+    cursor: pointer;
+    color:  rgb(232, 90, 90);
+  }
