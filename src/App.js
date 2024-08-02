@@ -20,6 +20,7 @@ import ProjectInfo from "./Component/Projectinfo/ProjectInfo";
 import Animation from "./Component/Animation/Animation";
 import Clients from "./Component/ClientsLogo/Clients";
 import BallAnimation from "./Component/BallAnimation/BallAnimation";
+import Branch from "./Component/Branch/Branch";
 
 
 
@@ -36,7 +37,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/logo" element={<Logo />}></Route>
-      
+        <Route path="/branch" element={<Branch />} />
         <Route path="/whatsapp" element={<Whatsapp />}></Route>
         <Route path="/mbl" element={<Mobile />}></Route>
         <Route path="/loader" element={<Loader />}></Route>

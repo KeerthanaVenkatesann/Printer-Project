@@ -48,7 +48,7 @@ export default function Whatsapp() {
               </h5>
             <div className="d-flex mb-4">  
            
-              <div className=" me-5">
+              <div className=" ">
                 <h6 className="mb-3"><SiMaildotru className="text-danger" /> Allwin Digital</h6>
                 <button
                   className="btn btn-outline-danger"
@@ -57,7 +57,7 @@ export default function Whatsapp() {
                 Sathish <PiWhatsappLogoDuotone className="text-success"/>
                 </button>
               </div>
-              <div>
+              {/* <div>
                 <h6 className="mb-3"><SiMaildotru className="text-danger" /> Allwin Prints</h6>
                 <button
                   className="btn btn-outline-danger"
@@ -65,7 +65,8 @@ export default function Whatsapp() {
                 >
                   Vivek <PiWhatsappLogoDuotone className="text-success"/>
                 </button>
-              </div></div>
+              </div> */}
+              </div>
               <h1 className=""></h1>
               <h5 className="modal-title  mb-4" id="whatsappModalLabel">
                 Choose Our Branches:
@@ -79,13 +80,14 @@ export default function Whatsapp() {
                   onClick={() => handleWhatsAppRedirect("8681000087")}
                 >
                 Naveen <PiWhatsappLogoDuotone className="text-success"/>
-                </button><LuArrowRightLeft className="mx-2 text-danger" />
-                <button
+                </button>
+                {/* <button
                   className="btn btn-outline-danger "
                   onClick={() => handleWhatsAppRedirect("8681000097")}
                 >
                  Anbu <PiWhatsappLogoDuotone className="text-success"/>
-                </button></div>  
+                </button> */}
+                </div>  
               </div>
              </div>
             </div>
