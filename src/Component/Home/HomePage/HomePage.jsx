@@ -94,7 +94,7 @@ data-aos-duration="1500"
   <span className="fs-1"> Vadapalani</span> 
   </li>
 </div>
-<div className="d-flex justify-content-around flicker ">
+<div className="d-flex justify-content-around flicker  nagar ">
   <li>
     Ashok Nagar
   </li><li>

@@ -114,6 +114,14 @@
     position: relative;
     top: 37px;
   }
+  .branches{
+    position: relative;
+    bottom: 20px;
+  }
+  .nagar{
+    position: relative;
+    top: 20px;
+  }
 }
 
 @media screen and (max-width: 376px) {
